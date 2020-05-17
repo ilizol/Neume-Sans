@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Neume Sans</title>
+    <script type="text/javascript" src="dist/opentype_edited.js"></script>
+    <style>
+        body {
+            font: 39px Helvetica, arial, freesans, sans-serif;
+            line-height: 1.3;
+            color: #333;
+            margin: 0 0 50px 0;
+            padding: 0;
+        }
+
+        button {
+            font-size: inherit;
+        }
+
+        .container {
+            width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #glyphs {
+            clear: both;
+        }
+
+        .wrapper {
+            float: left;
+            margin: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .wrapper span {
+            text-align: center;
+            background: #ddd;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="fontFamilyName"></h2>
+        <button onclick="font.download()">Download Font</button>
+
+        <div id="glyphs"></div>
+    </div>
+
+    <script type="text/javascript" src="js/neume_data.js"></script>
+
+    <script type="text/javascript" src="data/neume_glyphs_0.js"></script>
+    <script type="text/javascript" src="data/neume_glyphs_1.js"></script>
+
+    <script type="text/javascript" src="data/neume_glyphs_paths.js"></script>
+
+    <script type="text/javascript" src="js/neume_functions.js"></script>
+    <script type="text/javascript" src="js/neume.js"></script>
+</body>
+
+</html>
