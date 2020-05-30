@@ -204,5 +204,50 @@ glyphs_data.push(
             // hamile-short
             ['hamile-short', 0, 0]
         ]
+    },
+    {
+        "name": "klasma",
+        "unicode": uniStart++,
+        "advanceWidth": 3,
+        "components": [
+            // klasma
+            ['klasma', 0, 0]
+        ]
+    },
+    {
+        "name": "haple",
+        "unicode": uniStart++,
+        "advanceWidth": 0.875,
+        "components": [
+            // haple
+            ['haple', 0, 0]
+        ]
+    },
+    {
+        "name": "diple",
+        "unicode": uniStart++,
+        "advanceWidth": 2 * 0.875,
+        "components": [
+            // diple
+            ['diple', 0, 0]
+        ]
+    },
+    {
+        "name": "triple",
+        "unicode": uniStart++,
+        "advanceWidth": 3 * 0.875,
+        "components": [
+            // triple
+            ['triple', 0, 0]
+        ]
+    },
+    {
+        "name": "tetraple",
+        "unicode": uniStart++,
+        "advanceWidth": 4 * 0.875,
+        "components": [
+            // tetraple
+            ['tetraple', 0, 0]
+        ]
     }
 );

@@ -56,8 +56,178 @@ var edy = -2;
 var haw = 6.5;
 var hauy = 1.75;
 var hauuy = 2.5;
+//--- klasma ---
+var kluy = 1.75;
+var kldy = -1.75;
+//--- haple ---
+var hapdy = -1;
 
 glyphs_data.push(
+    {
+        "name": "ison+klasma",
+        "unicode": uniStart++,
+        "advanceWidth": iw,
+        "components": [
+            //--- ison ---
+            ['ison', 0, 0],
+            //--- klasma-u ---
+            ['klasma', 2.5, kluy]
+        ]
+    },
+    {
+        "name": "oligon+klasma",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- klasma-u ---
+            ['klasma', 2.5, kluy]
+        ]
+    },
+    {
+        "name": "petaste+klasma",
+        "unicode": uniStart++,
+        "advanceWidth": pw,
+        "components": [
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- klasma-d ---
+            ['klasma', 3.75, kldy]
+        ]
+    },
+    {
+        "name": "apostrophos+klasma",
+        "unicode": uniStart++,
+        "advanceWidth": aw,
+        "components": [
+            //--- apostrophos ---
+            ['apostrophos', 0, 0],
+            //--- klasma-u ---
+            ['klasma', 0.25, kluy]
+        ]
+    },
+    {
+        "name": "elaphron+klasma",
+        "unicode": uniStart++,
+        "advanceWidth": ew,
+        "components": [
+            //--- elaphron ---
+            ['elaphron', 0, 0],
+            //--- klasma-u ---
+            ['klasma', 2.75, kluy]
+        ]
+    },
+    {
+        "name": "hamile+klasma",
+        "unicode": uniStart++,
+        "advanceWidth": haw,
+        "components": [
+            //--- hamile ---
+            ['hamile', 0, 0],
+            //--- klasma-u ---
+            ['klasma', 2, kluy]
+        ]
+    },
+    {
+        "name": "apostrophos+haple",
+        "unicode": uniStart++,
+        "advanceWidth": aw,
+        "components": [
+            //--- apostrophos ---
+            ['apostrophos', 0, 0],
+            //--- haple-d ---
+            ['haple', aw / 2, hapdy]
+        ]
+    },
+    {
+        "name": "hyporroe+haple",
+        "unicode": uniStart++,
+        "advanceWidth": hpw,
+        "components": [
+            //--- hyporroe ---
+            ['hyporroe', 0, 0],
+            //--- haple-d ---
+            ['haple', 0, hapdy]
+        ]
+    },
+    {
+        "name": "ison+diple",
+        "unicode": uniStart++,
+        "advanceWidth": iw,
+        "components": [
+            //--- ison ---
+            ['ison', 0, 0],
+            //--- diple-d ---
+            ['diple', iw / 2.5, hapdy]
+        ]
+    },
+    {
+        "name": "oligon+diple",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- diple-d ---
+            ['diple', ow / 2.5, hapdy]
+        ]
+    },
+    {
+        "name": "apostrophos+diple",
+        "unicode": uniStart++,
+        "advanceWidth": aw,
+        "components": [
+            //--- apostrophos ---
+            ['apostrophos', 0, 0],
+            //--- diple-d ---
+            ['diple', aw / 3, hapdy]
+        ]
+    },
+    {
+        "name": "elaphron+diple",
+        "unicode": uniStart++,
+        "advanceWidth": ew,
+        "components": [
+            //--- elaphron ---
+            ['elaphron', 0, 0],
+            //--- diple-d ---
+            ['diple', ew / 3, hapdy]
+        ]
+    },
+    {
+        "name": "ison+triple",
+        "unicode": uniStart++,
+        "advanceWidth": iw,
+        "components": [
+            //--- oligon ---
+            ['ison', 0, 0],
+            //--- triple-d ---
+            ['triple', iw / 2.5, hapdy]
+        ]
+    },
+    {
+        "name": "apostrophos+triple",
+        "unicode": uniStart++,
+        "advanceWidth": aw,
+        "components": [
+            //--- apostrophos ---
+            ['apostrophos', 0, 0],
+            //--- triple-d ---
+            ['triple', aw / 4, hapdy]
+        ]
+    },
+    {
+        "name": "apostrophos+tetraple",
+        "unicode": uniStart++,
+        "advanceWidth": aw,
+        "components": [
+            //--- apostrophos ---
+            ['apostrophos', 0, 0],
+            //--- tetraple-d ---
+            ['tetraple', aw / 5, hapdy]
+        ]
+    },
     {
         "name": "ison+apostrophos",
         "unicode": uniStart++,
