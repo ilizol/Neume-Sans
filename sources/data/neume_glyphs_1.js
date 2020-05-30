@@ -6,7 +6,7 @@ var ow = 8;
 var ouy = 1.5;
 //--- oligon-long ---
 var olw = 9;
-//--- petastie ---
+//--- petaste ---
 var pw = 7.5;
 var py = 0.5;
 //--- kendimata ---
@@ -21,15 +21,15 @@ var Kw = 1.4;
 var Kucx = 3.25;
 //--- kendima-r ---
 var Krx = ow;
-//--- hypsilie ---
+//--- hypsile ---
 var hy = 1.5;
-//--- hypsilie-l ---
+//--- hypsile-l ---
 var hlx = 0;
-//--- hypsilie-r ---
+//--- hypsile-r ---
 var hrx = 5.7;
-//--- hypsilie-c ---
+//--- hypsile-c ---
 var hcx = 2.8;
-//--- hypsilie-uc ---
+//--- hypsile-uc ---
 var hucx = 3.4;
 var hucy = 3.175;
 //--- apostrophos ---
@@ -52,7 +52,7 @@ var ew = 7.5;
 var euy = 1.85;
 var e3uy = 2.15;
 var edy = -2;
-//--- hamilie ---
+//--- hamile ---
 var haw = 6.5;
 var hauy = 1.75;
 var hauuy = 2.5;
@@ -114,12 +114,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petastie+ison",
+        "name": "petaste+ison",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
+            //--- petaste ---
+            ['petaste', 0, 0],
             //--- ison-uc ---
             ['ison', 0, iuy + py]
         ]
@@ -136,12 +136,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petastie+apostrophos",
+        "name": "petaste+apostrophos",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
+            //--- petaste ---
+            ['petaste', 0, 0],
             //--- apostrophos-uc ---
             ['apostrophos', aucx, auy + py]
         ]
@@ -158,12 +158,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petastie+hyporroe",
+        "name": "petaste+hyporroe",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
+            //--- petaste ---
+            ['petaste', 0, 0],
             //--- hyporroe-uc ---
             ['hyporroe', hpucx, hpuy + py]
         ]
@@ -182,12 +182,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petastie+syn-elaphron",
+        "name": "petaste+syn-elaphron",
         "unicode": uniStart++,
         "advanceWidth": pw + aw,
         "components": [
-            //--- petastie ---
-            ['petastie', aw, 0],
+            //--- petaste ---
+            ['petaste', aw, 0],
             //--- elaphron-uc ---
             ['elaphron', aw, euy + py],
             //--- apostrophos-ul ---
@@ -206,12 +206,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petastie+elaphron",
+        "name": "petaste+elaphron",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
+            //--- petaste ---
+            ['petaste', 0, 0],
             //--- elaphron-uc ---
             ['elaphron', 0, euy + py]
         ]
@@ -241,12 +241,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petastie+elaphron-3",
+        "name": "petaste+elaphron-3",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
+            //--- petaste ---
+            ['petaste', 0, 0],
             //--- elaphron-uc ---
             ['elaphron', 0, e3uy + py],
             //--- apostrophos-uc ---
@@ -254,56 +254,56 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+hamilie",
+        "name": "oligon+hamile",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauy]
+            //--- hamile-uc ---
+            ['hamile', 0, hauy]
         ]
     },
     {
-        "name": "petastie+hamilie",
+        "name": "petaste+hamile",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauy + py]
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hamile-uc ---
+            ['hamile', 0, hauy + py]
         ]
     },
     {
-        "name": "hamilie-5",
+        "name": "hamile-5",
         "unicode": uniStart++,
         "advanceWidth": haw,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
+            //--- hamile ---
+            ['hamile', 0, 0],
             //--- apostrophos-dc ---
             ['apostrophos', adx, edy]
         ]
     },
     {
-        "name": "hamilie-6",
+        "name": "hamile-6",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
+            //--- hamile ---
+            ['hamile', 0, 0],
             //--- elaphron-dc ---
             ['elaphron', 0, edy]
         ]
     },
     {
-        "name": "hamilie-7",
+        "name": "hamile-7",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
+            //--- hamile ---
+            ['hamile', 0, 0],
             //--- elaphron-dc ---
             ['elaphron', 0, edy],
             //--- apostrophos-dc ---
@@ -311,51 +311,51 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "hamilie-8",
+        "name": "hamile-8",
         "unicode": uniStart++,
         "advanceWidth": haw,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauuy]
+            //--- hamile ---
+            ['hamile', 0, 0],
+            //--- hamile-uc ---
+            ['hamile', 0, hauuy]
         ]
     },
     {
-        "name": "hamilie-9",
+        "name": "hamile-9",
         "unicode": uniStart++,
         "advanceWidth": haw,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauuy],
+            //--- hamile ---
+            ['hamile', 0, 0],
+            //--- hamile-uc ---
+            ['hamile', 0, hauuy],
             //--- apostrophos-dc ---
             ['apostrophos', adx, edy]
         ]
     },
     {
-        "name": "hamilie-10",
+        "name": "hamile-10",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauuy],
+            //--- hamile ---
+            ['hamile', 0, 0],
+            //--- hamile-uc ---
+            ['hamile', 0, hauuy],
             //--- elaphron-dc ---
             ['elaphron', 0, edy]
         ]
     },
     {
-        "name": "hamilie-11",
+        "name": "hamile-11",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauuy],
+            //--- hamile ---
+            ['hamile', 0, 0],
+            //--- hamile-uc ---
+            ['hamile', 0, hauuy],
             //--- elaphron-dc ---
             ['elaphron', 0, edy],
             //--- apostrophos-dc ---
@@ -363,59 +363,59 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "hamilie-12",
+        "name": "hamile-12",
         "unicode": uniStart++,
         "advanceWidth": haw,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauuy],
-            //--- hamilie-uc ---
-            ['hamilie', 0, 2 * hauuy]
+            //--- hamile ---
+            ['hamile', 0, 0],
+            //--- hamile-uc ---
+            ['hamile', 0, hauuy],
+            //--- hamile-uc ---
+            ['hamile', 0, 2 * hauuy]
         ]
     },
     {
-        "name": "hamilie-13",
+        "name": "hamile-13",
         "unicode": uniStart++,
         "advanceWidth": haw,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauuy],
-            //--- hamilie-uc ---
-            ['hamilie', 0, 2 * hauuy],
+            //--- hamile ---
+            ['hamile', 0, 0],
+            //--- hamile-uc ---
+            ['hamile', 0, hauuy],
+            //--- hamile-uc ---
+            ['hamile', 0, 2 * hauuy],
             //--- apostrophos-dc ---
             ['apostrophos', adx, edy]
         ]
     },
     {
-        "name": "hamilie-14",
+        "name": "hamile-14",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauuy],
-            //--- hamilie-uc ---
-            ['hamilie', 0, 2 * hauuy],
+            //--- hamile ---
+            ['hamile', 0, 0],
+            //--- hamile-uc ---
+            ['hamile', 0, hauuy],
+            //--- hamile-uc ---
+            ['hamile', 0, 2 * hauuy],
             //--- elaphron-dc ---
             ['elaphron', 0, edy]
         ]
     },
     {
-        "name": "hamilie-15",
+        "name": "hamile-15",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- hamilie ---
-            ['hamilie', 0, 0],
-            //--- hamilie-uc ---
-            ['hamilie', 0, hauuy],
-            //--- hamilie-uc ---
-            ['hamilie', 0, 2 * hauuy],
+            //--- hamile ---
+            ['hamile', 0, 0],
+            //--- hamile-uc ---
+            ['hamile', 0, hauuy],
+            //--- hamile-uc ---
+            ['hamile', 0, 2 * hauuy],
             //--- elaphron-dc ---
             ['elaphron', 0, edy],
             //--- apostrophos-dc ---
@@ -505,14 +505,14 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+hamilie+1",
+        "name": "oligon+hamile+1",
         "unicode": uniStart++,
         "advanceWidth": olw,
         "components": [
             //--- oligon-long ---
             ['oligon-long', 0, 0],
-            //--- hamilie-short-ul ---
-            ['hamilie-short', -0.25, hauy],
+            //--- hamile-short-ul ---
+            ['hamile-short', -0.25, hauy],
             //--- kendimata-ur ---
             ['kendimata', 6, kuy]
         ]
@@ -566,8 +566,8 @@ glyphs_data.push(
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
+            //--- petaste ---
+            ['petaste', 0, 0],
             //--- oligon-uc ---
             ['oligon', -0.5, ouy + py]
         ]
@@ -597,12 +597,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petastie+3",
+        "name": "petaste+3",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
+            //--- petaste ---
+            ['petaste', 0, 0],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy + py]
         ]
@@ -614,19 +614,19 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy]
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy]
         ]
     },
     {
-        "name": "petastie+4",
+        "name": "petaste+4",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy + py]
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy + py]
         ]
     },
     {
@@ -636,8 +636,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', 5, hy],
+            //--- hypsile-r ---
+            ['hypsile', 5, hy],
             //--- kendimata-ul ---
             ['kendimata', kulx, kuy]
         ]
@@ -649,19 +649,19 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy]
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy]
         ]
     },
     {
-        "name": "petastie+5",
+        "name": "petaste+5",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy + py]
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy + py]
         ]
     },
     {
@@ -671,8 +671,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', 0.5, hy],
+            //--- hypsile-l ---
+            ['hypsile', 0.5, hy],
             //--- kendimata-ur ---
             ['kendimata', 4, kuy]
         ]
@@ -684,21 +684,21 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy]
         ]
     },
     {
-        "name": "petastie+6",
+        "name": "petaste+6",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy + py],
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy + py],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy + py]
         ]
@@ -710,8 +710,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', 5, hy],
+            //--- hypsile-r ---
+            ['hypsile', 5, hy],
             //--- kendima-r ---
             ['kendima', Krx, 0],
             //--- kendimata-ul ---
@@ -725,21 +725,21 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy]
         ]
     },
     {
-        "name": "petastie+7",
+        "name": "petaste+7",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy + py],
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy + py],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy + py]
         ]
@@ -751,23 +751,23 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy]
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy]
         ]
     },
     {
-        "name": "petastie+8",
+        "name": "petaste+8",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy + py],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy + py]
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy + py],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy + py]
         ]
     },
     {
@@ -777,25 +777,25 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy],
             //--- kendimata-uc ---
             ['kendimata', kucx, kuy]
         ]
     },
     {
-        "name": "petastie+9",
+        "name": "petaste+9",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy + py],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy + py],
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy + py],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy + py],
             //--- kendimata-uc ---
             ['kendimata', kucx, kuy + py]
         ]
@@ -807,25 +807,25 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy]
         ]
     },
     {
-        "name": "petastie+10",
+        "name": "petaste+10",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy + py],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy + py],
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy + py],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy + py],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy + py]
         ]
@@ -837,25 +837,25 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy]
         ]
     },
     {
-        "name": "petastie+11",
+        "name": "petaste+11",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy + py],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy + py],
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy + py],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy + py],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy + py]
         ]
@@ -867,27 +867,27 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy],
-            //--- hypsilie-c ---
-            ['hypsilie', hcx, hy]
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy],
+            //--- hypsile-c ---
+            ['hypsile', hcx, hy]
         ]
     },
     {
-        "name": "petastie+12",
+        "name": "petaste+12",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy + py],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy + py],
-            //--- hypsilie-c ---
-            ['hypsilie', hcx, hy + py]
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy + py],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy + py],
+            //--- hypsile-c ---
+            ['hypsile', hcx, hy + py]
         ]
     },
     {
@@ -897,29 +897,29 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy],
             //--- kendimata-uc ---
             ['kendimata', kucx, kuy]
         ]
     },
     {
-        "name": "petastie+13",
+        "name": "petaste+13",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy + py],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy + py],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy + py],
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy + py],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy + py],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy + py],
             //--- kendimata-uc ---
             ['kendimata', kucx, kuy + py]
         ]
@@ -931,29 +931,29 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy]
         ]
     },
     {
-        "name": "petastie+14",
+        "name": "petaste+14",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy + py],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy + py],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy + py],
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy + py],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy + py],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy + py],
             //--- kendima-uc ---
             ['kendima', Kucx, kuy + py]
         ]
@@ -965,12 +965,12 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsilie-l ---
-            ['hypsilie', hlx, hy],
-            //--- hypsilie-r ---
-            ['hypsilie', hrx, hy],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx, hucy],
+            //--- hypsile-l ---
+            ['hypsile', hlx, hy],
+            //--- hypsile-r ---
+            ['hypsile', hrx, hy],
+            //--- hypsile-uc ---
+            ['hypsile', hucx, hucy],
             //--- kendima-r ---
             ['kendima', Krx, 0],
             //--- kendimata-uc ---
@@ -978,20 +978,20 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petastie+15",
+        "name": "petaste+15",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
-            //--- petastie ---
-            ['petastie', 0, 0],
+            //--- petaste ---
+            ['petaste', 0, 0],
             //--- oligon-uc ---
             ['oligon', -0.5, ouy + py],
-            //--- hypsilie-ul ---
-            ['hypsilie', hlx - 0.5, ouy + hy + py],
-            //--- hypsilie-ur ---
-            ['hypsilie', hrx - 0.5, ouy + hy + py],
-            //--- hypsilie-uc ---
-            ['hypsilie', hucx - 0.5, ouy + hucy + py],
+            //--- hypsile-ul ---
+            ['hypsile', hlx - 0.5, ouy + hy + py],
+            //--- hypsile-ur ---
+            ['hypsile', hrx - 0.5, ouy + hy + py],
+            //--- hypsile-uc ---
+            ['hypsile', hucx - 0.5, ouy + hucy + py],
             //--- kendima-uc ---
             ['kendima', Kucx - 0.5, ouy + kuy + py]
         ]

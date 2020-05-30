@@ -116,12 +116,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petastie",
+        "name": "petaste",
         "unicode": uniStart++,
         "advanceWidth": 7.5,
         "components": [
-            // petastie
-            ['petastie', 0, 0]
+            // petaste
+            ['petaste', 0, 0]
         ]
     },
     {
@@ -143,12 +143,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "hypsilie",
+        "name": "hypsile",
         "unicode": uniStart++,
         "advanceWidth": 3,
         "components": [
-            // hypsilie
-            ['hypsilie', 0, 0]
+            // hypsile
+            ['hypsile', 0, 0]
         ]
     },
     {
@@ -188,21 +188,21 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "hamilie",
+        "name": "hamile",
         "unicode": uniStart++,
         "advanceWidth": 6.5,
         "components": [
-            // hamilie
-            ['hamilie', 0, 0]
+            // hamile
+            ['hamile', 0, 0]
         ]
     },
     {
-        "name": "hamilie-short",
+        "name": "hamile-short",
         "unicode": uniStart++,
         "advanceWidth": 6,
         "components": [
-            // hamilie-short
-            ['hamilie-short', 0, 0]
+            // hamile-short
+            ['hamile-short', 0, 0]
         ]
     }
 );
