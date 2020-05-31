@@ -60,7 +60,10 @@ var hauuy = 2.5;
 var kluy = 1.75;
 var kldy = -1.75;
 //--- haple ---
+var hapw = 1;
 var hapdy = -1;
+//--- vareia ---
+var vaw = 3;
 
 glyphs_data.push(
     {
@@ -226,6 +229,109 @@ glyphs_data.push(
             ['apostrophos', 0, 0],
             //--- tetraple-d ---
             ['tetraple', aw / 5, hapdy]
+        ]
+    },
+    {
+        "name": "vareia+ison",
+        "unicode": uniStart++,
+        "advanceWidth": vaw + iw,
+        "components": [
+            //--- vareia ---
+            ['vareia', 0, 0],
+            //--- ison ---
+            ['ison', vaw, 0]
+        ]
+    },
+    {
+        "name": "vareia+oligon",
+        "unicode": uniStart++,
+        "advanceWidth": vaw + ow,
+        "components": [
+            //--- vareia ---
+            ['vareia', 0, 0],
+            //--- oligon ---
+            ['oligon', vaw, 0]
+        ]
+    },
+    {
+        "name": "vareia+petaste",
+        "unicode": uniStart++,
+        "advanceWidth": vaw + pw,
+        "components": [
+            //--- vareia ---
+            ['vareia', 0, 0],
+            //--- petaste ---
+            ['petaste', vaw, 0]
+        ]
+    },
+    {
+        "name": "vareia+apostrophos*2",
+        "unicode": uniStart++,
+        "advanceWidth": vaw + 2 * aw,
+        "components": [
+            //--- vareia ---
+            ['vareia', 0, 0],
+            //--- apostrophos 1 ---
+            ['apostrophos', vaw, 0],
+            //--- apostrophos 2 ---
+            ['apostrophos', vaw + aw, 0]
+        ]
+    },
+    {
+        "name": "vareia+apostrophoi",
+        "unicode": uniStart++,
+        "advanceWidth": vaw + 2.5 + aw,
+        "components": [
+            //--- vareia ---
+            ['vareia', 0, 0],
+            //--- apostrophos-ul ---
+            ['apostrophos', vaw, 0.25],
+            //--- apostrophos-dr ---
+            ['apostrophos', vaw + 2.5, adry]
+        ]
+    },
+    {
+        "name": "vareia+haple",
+        "unicode": uniStart++,
+        "advanceWidth": vaw + hapw,
+        "components": [
+            //--- vareia ---
+            ['vareia', 0, 0],
+            //--- haple ---
+            ['haple', vaw, 0]
+        ]
+    },
+    {
+        "name": "vareia+diple",
+        "unicode": uniStart++,
+        "advanceWidth": vaw + 2 * hapw,
+        "components": [
+            //--- vareia ---
+            ['vareia', 0, 0],
+            //--- diple ---
+            ['diple', vaw, 0]
+        ]
+    },
+    {
+        "name": "vareia+triple",
+        "unicode": uniStart++,
+        "advanceWidth": vaw + 3 * hapw,
+        "components": [
+            //--- vareia ---
+            ['vareia', 0, 0],
+            //--- triple ---
+            ['triple', vaw, 0]
+        ]
+    },
+    {
+        "name": "vareia+tetraple",
+        "unicode": uniStart++,
+        "advanceWidth": vaw + 4 * hapw,
+        "components": [
+            //--- vareia ---
+            ['vareia', 0, 0],
+            //--- tetraple ---
+            ['tetraple', vaw, 0]
         ]
     },
     {

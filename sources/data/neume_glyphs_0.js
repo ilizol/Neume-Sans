@@ -217,7 +217,7 @@ glyphs_data.push(
     {
         "name": "haple",
         "unicode": uniStart++,
-        "advanceWidth": 0.875,
+        "advanceWidth": 1,
         "components": [
             // haple
             ['haple', 0, 0]
@@ -226,7 +226,7 @@ glyphs_data.push(
     {
         "name": "diple",
         "unicode": uniStart++,
-        "advanceWidth": 2 * 0.875,
+        "advanceWidth": 2 * 1,
         "components": [
             // diple
             ['diple', 0, 0]
@@ -235,7 +235,7 @@ glyphs_data.push(
     {
         "name": "triple",
         "unicode": uniStart++,
-        "advanceWidth": 3 * 0.875,
+        "advanceWidth": 3 * 1,
         "components": [
             // triple
             ['triple', 0, 0]
@@ -244,10 +244,19 @@ glyphs_data.push(
     {
         "name": "tetraple",
         "unicode": uniStart++,
-        "advanceWidth": 4 * 0.875,
+        "advanceWidth": 4 * 1,
         "components": [
             // tetraple
             ['tetraple', 0, 0]
+        ]
+    },
+    {
+        "name": "vareia",
+        "unicode": uniStart++,
+        "advanceWidth": 3,
+        "components": [
+            // vareia
+            ['vareia', 0, 0]
         ]
     }
 );
