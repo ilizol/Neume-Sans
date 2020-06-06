@@ -253,7 +253,7 @@ glyphs_data.push(
     {
         "name": "vareia",
         "unicode": uniStart++,
-        "advanceWidth": 3,
+        "advanceWidth": 2.5,
         "components": [
             // vareia
             ['vareia', 0, 0]

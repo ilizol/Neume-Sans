@@ -58,12 +58,14 @@ var hauy = 1.75;
 var hauuy = 2.5;
 //--- klasma ---
 var kluy = 1.75;
+var klu2y = 2;
 var kldy = -1.75;
 //--- haple ---
 var hapw = 1;
 var hapdy = -1;
+var hapd2y = -1.25;
 //--- vareia ---
-var vaw = 3;
+var vaw = 2.5;
 
 glyphs_data.push(
     {
@@ -129,7 +131,7 @@ glyphs_data.push(
             //--- hamile ---
             ['hamile', 0, 0],
             //--- klasma-u ---
-            ['klasma', 2, kluy]
+            ['klasma', 2, klu2y]
         ]
     },
     {
@@ -151,7 +153,7 @@ glyphs_data.push(
             //--- hyporroe ---
             ['hyporroe', 0, 0],
             //--- haple-d ---
-            ['haple', 0, hapdy]
+            ['haple', 0, hapd2y]
         ]
     },
     {
@@ -162,7 +164,7 @@ glyphs_data.push(
             //--- ison ---
             ['ison', 0, 0],
             //--- diple-d ---
-            ['diple', iw / 2.5, hapdy]
+            ['diple', iw / 2.25, hapdy]
         ]
     },
     {
