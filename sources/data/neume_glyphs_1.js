@@ -532,7 +532,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+chmile",
+        "name": "oligon+chamile",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
