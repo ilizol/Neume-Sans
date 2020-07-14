@@ -840,7 +840,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petatie+2",
+        "name": "petaste+2",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
