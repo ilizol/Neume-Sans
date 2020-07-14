@@ -125,21 +125,21 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "kendimata",
+        "name": "kentimata",
         "unicode": uniStart++,
         "advanceWidth": 2.8,
         "components": [
-            // kendimata
-            ['kendimata', 0, 0]
+            // kentimata
+            ['kentimata', 0, 0]
         ]
     },
     {
-        "name": "kendima",
+        "name": "kentima",
         "unicode": uniStart++,
         "advanceWidth": 1.4,
         "components": [
-            // kendima
-            ['kendima', 0, 0]
+            // kentima
+            ['kentima', 0, 0]
         ]
     },
     {
