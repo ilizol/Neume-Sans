@@ -188,21 +188,21 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamile",
+        "name": "chamele",
         "unicode": uniStart++,
         "advanceWidth": 6.5,
         "components": [
-            // chamile
-            ['chamile', 0, 0]
+            // chamele
+            ['chamele', 0, 0]
         ]
     },
     {
-        "name": "chamile-short",
+        "name": "chamele-short",
         "unicode": uniStart++,
         "advanceWidth": 6,
         "components": [
-            // chamile-short
-            ['chamile-short', 0, 0]
+            // chamele-short
+            ['chamele-short', 0, 0]
         ]
     },
     {

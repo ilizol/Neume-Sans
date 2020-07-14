@@ -52,7 +52,7 @@ var ew = 7.5;
 var euy = 1.85;
 var e3uy = 2.15;
 var edy = -2;
-//--- chamile ---
+//--- chamele ---
 var chaw = 6.5;
 var chauy = 1.75;
 var chauuy = 2.5;
@@ -124,12 +124,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamile+klasma",
+        "name": "chamele+klasma",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
+            //--- chamele ---
+            ['chamele', 0, 0],
             //--- klasma-u ---
             ['klasma', 2, klu2y]
         ]
@@ -532,56 +532,56 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+chamile",
+        "name": "oligon+chamele",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauy]
+            //--- chamele-uc ---
+            ['chamele', 0, chauy]
         ]
     },
     {
-        "name": "petaste+chamile",
+        "name": "petaste+chamele",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauy + py]
+            //--- chamele-uc ---
+            ['chamele', 0, chauy + py]
         ]
     },
     {
-        "name": "chamile-5",
+        "name": "chamele-5",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
+            //--- chamele ---
+            ['chamele', 0, 0],
             //--- apostrophos-dc ---
             ['apostrophos', adx, edy]
         ]
     },
     {
-        "name": "chamile-6",
+        "name": "chamele-6",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
+            //--- chamele ---
+            ['chamele', 0, 0],
             //--- elaphron-dc ---
             ['elaphron', 0, edy]
         ]
     },
     {
-        "name": "chamile-7",
+        "name": "chamele-7",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
+            //--- chamele ---
+            ['chamele', 0, 0],
             //--- elaphron-dc ---
             ['elaphron', 0, edy],
             //--- apostrophos-dc ---
@@ -589,51 +589,51 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamile-8",
+        "name": "chamele-8",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauuy]
+            //--- chamele ---
+            ['chamele', 0, 0],
+            //--- chamele-uc ---
+            ['chamele', 0, chauuy]
         ]
     },
     {
-        "name": "chamile-9",
+        "name": "chamele-9",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauuy],
+            //--- chamele ---
+            ['chamele', 0, 0],
+            //--- chamele-uc ---
+            ['chamele', 0, chauuy],
             //--- apostrophos-dc ---
             ['apostrophos', adx, edy]
         ]
     },
     {
-        "name": "chamile-10",
+        "name": "chamele-10",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauuy],
+            //--- chamele ---
+            ['chamele', 0, 0],
+            //--- chamele-uc ---
+            ['chamele', 0, chauuy],
             //--- elaphron-dc ---
             ['elaphron', 0, edy]
         ]
     },
     {
-        "name": "chamile-11",
+        "name": "chamele-11",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauuy],
+            //--- chamele ---
+            ['chamele', 0, 0],
+            //--- chamele-uc ---
+            ['chamele', 0, chauuy],
             //--- elaphron-dc ---
             ['elaphron', 0, edy],
             //--- apostrophos-dc ---
@@ -641,59 +641,59 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamile-12",
+        "name": "chamele-12",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauuy],
-            //--- chamile-uc ---
-            ['chamile', 0, 2 * chauuy]
+            //--- chamele ---
+            ['chamele', 0, 0],
+            //--- chamele-uc ---
+            ['chamele', 0, chauuy],
+            //--- chamele-uc ---
+            ['chamele', 0, 2 * chauuy]
         ]
     },
     {
-        "name": "chamile-13",
+        "name": "chamele-13",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauuy],
-            //--- chamile-uc ---
-            ['chamile', 0, 2 * chauuy],
+            //--- chamele ---
+            ['chamele', 0, 0],
+            //--- chamele-uc ---
+            ['chamele', 0, chauuy],
+            //--- chamele-uc ---
+            ['chamele', 0, 2 * chauuy],
             //--- apostrophos-dc ---
             ['apostrophos', adx, edy]
         ]
     },
     {
-        "name": "chamile-14",
+        "name": "chamele-14",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauuy],
-            //--- chamile-uc ---
-            ['chamile', 0, 2 * chauuy],
+            //--- chamele ---
+            ['chamele', 0, 0],
+            //--- chamele-uc ---
+            ['chamele', 0, chauuy],
+            //--- chamele-uc ---
+            ['chamele', 0, 2 * chauuy],
             //--- elaphron-dc ---
             ['elaphron', 0, edy]
         ]
     },
     {
-        "name": "chamile-15",
+        "name": "chamele-15",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
-            //--- chamile ---
-            ['chamile', 0, 0],
-            //--- chamile-uc ---
-            ['chamile', 0, chauuy],
-            //--- chamile-uc ---
-            ['chamile', 0, 2 * chauuy],
+            //--- chamele ---
+            ['chamele', 0, 0],
+            //--- chamele-uc ---
+            ['chamele', 0, chauuy],
+            //--- chamele-uc ---
+            ['chamele', 0, 2 * chauuy],
             //--- elaphron-dc ---
             ['elaphron', 0, edy],
             //--- apostrophos-dc ---
@@ -783,14 +783,14 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+chamile+1",
+        "name": "oligon+chamele+1",
         "unicode": uniStart++,
         "advanceWidth": olw,
         "components": [
             //--- oligon-long ---
             ['oligon-long', 0, 0],
-            //--- chamile-short-ul ---
-            ['chamile-short', -0.25, chauy],
+            //--- chamele-short-ul ---
+            ['chamele-short', -0.25, chauy],
             //--- kendimata-ur ---
             ['kendimata', 6, kuy]
         ]
