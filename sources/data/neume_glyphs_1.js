@@ -21,15 +21,15 @@ var Kw = 1.4;
 var Kucx = 3.25;
 //--- kentema-r ---
 var Krx = ow;
-//--- hypsile ---
+//--- hypsele ---
 var hy = 1.5;
-//--- hypsile-l ---
+//--- hypsele-l ---
 var hlx = 0;
-//--- hypsile-r ---
+//--- hypsele-r ---
 var hrx = 5.7;
-//--- hypsile-c ---
+//--- hypsele-c ---
 var hcx = 2.8;
-//--- hypsile-uc ---
+//--- hypsele-uc ---
 var hucx = 3.4;
 var hucy = 3.175;
 //--- apostrophos ---
@@ -892,8 +892,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy]
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy]
         ]
     },
     {
@@ -903,8 +903,8 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy + py]
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy + py]
         ]
     },
     {
@@ -914,8 +914,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', 5, hy],
+            //--- hypsele-r ---
+            ['hypsele', 5, hy],
             //--- kentemata-ul ---
             ['kentemata', kulx, kuy]
         ]
@@ -927,8 +927,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy]
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy]
         ]
     },
     {
@@ -938,8 +938,8 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy + py]
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy + py]
         ]
     },
     {
@@ -949,8 +949,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', 0.5, hy],
+            //--- hypsele-l ---
+            ['hypsele', 0.5, hy],
             //--- kentemata-ur ---
             ['kentemata', 4, kuy]
         ]
@@ -962,8 +962,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy]
         ]
@@ -975,8 +975,8 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy + py],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy + py],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy + py]
         ]
@@ -988,8 +988,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', 5, hy],
+            //--- hypsele-r ---
+            ['hypsele', 5, hy],
             //--- kentema-r ---
             ['kentema', Krx, 0],
             //--- kentemata-ul ---
@@ -1003,8 +1003,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy]
         ]
@@ -1016,8 +1016,8 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy + py],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy + py],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy + py]
         ]
@@ -1029,10 +1029,10 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy]
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy]
         ]
     },
     {
@@ -1042,10 +1042,10 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy + py],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy + py]
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy + py],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy + py]
         ]
     },
     {
@@ -1055,10 +1055,10 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy],
             //--- kentemata-uc ---
             ['kentemata', kucx, kuy]
         ]
@@ -1070,10 +1070,10 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy + py],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy + py],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy + py],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy + py],
             //--- kentemata-uc ---
             ['kentemata', kucx, kuy + py]
         ]
@@ -1085,10 +1085,10 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy]
         ]
@@ -1100,10 +1100,10 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy + py],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy + py],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy + py],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy + py],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy + py]
         ]
@@ -1115,10 +1115,10 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy],
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy]
         ]
@@ -1130,10 +1130,10 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy + py],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy + py],
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy + py],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy + py],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy + py]
         ]
@@ -1145,12 +1145,12 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy],
-            //--- hypsile-c ---
-            ['hypsile', hcx, hy]
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy],
+            //--- hypsele-c ---
+            ['hypsele', hcx, hy]
         ]
     },
     {
@@ -1160,12 +1160,12 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy + py],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy + py],
-            //--- hypsile-c ---
-            ['hypsile', hcx, hy + py]
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy + py],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy + py],
+            //--- hypsele-c ---
+            ['hypsele', hcx, hy + py]
         ]
     },
     {
@@ -1175,12 +1175,12 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy],
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy],
             //--- kentemata-uc ---
             ['kentemata', kucx, kuy]
         ]
@@ -1192,12 +1192,12 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy + py],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy + py],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy + py],
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy + py],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy + py],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy + py],
             //--- kentemata-uc ---
             ['kentemata', kucx, kuy + py]
         ]
@@ -1209,12 +1209,12 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy],
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy]
         ]
@@ -1226,12 +1226,12 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy + py],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy + py],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy + py],
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy + py],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy + py],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy + py],
             //--- kentema-uc ---
             ['kentema', Kucx, kuy + py]
         ]
@@ -1243,12 +1243,12 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hypsile-l ---
-            ['hypsile', hlx, hy],
-            //--- hypsile-r ---
-            ['hypsile', hrx, hy],
-            //--- hypsile-uc ---
-            ['hypsile', hucx, hucy],
+            //--- hypsele-l ---
+            ['hypsele', hlx, hy],
+            //--- hypsele-r ---
+            ['hypsele', hrx, hy],
+            //--- hypsele-uc ---
+            ['hypsele', hucx, hucy],
             //--- kentema-r ---
             ['kentema', Krx, 0],
             //--- kentemata-uc ---
@@ -1264,12 +1264,12 @@ glyphs_data.push(
             ['petaste', 0, 0],
             //--- oligon-uc ---
             ['oligon', -0.5, ouy + py],
-            //--- hypsile-ul ---
-            ['hypsile', hlx - 0.5, ouy + hy + py],
-            //--- hypsile-ur ---
-            ['hypsile', hrx - 0.5, ouy + hy + py],
-            //--- hypsile-uc ---
-            ['hypsile', hucx - 0.5, ouy + hucy + py],
+            //--- hypsele-ul ---
+            ['hypsele', hlx - 0.5, ouy + hy + py],
+            //--- hypsele-ur ---
+            ['hypsele', hrx - 0.5, ouy + hy + py],
+            //--- hypsele-uc ---
+            ['hypsele', hucx - 0.5, ouy + hucy + py],
             //--- kentema-uc ---
             ['kentema', Kucx - 0.5, ouy + kuy + py]
         ]

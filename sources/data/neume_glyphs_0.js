@@ -143,12 +143,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "hypsile",
+        "name": "hypsele",
         "unicode": uniStart++,
         "advanceWidth": 3,
         "components": [
-            // hypsile
-            ['hypsile', 0, 0]
+            // hypsele
+            ['hypsele', 0, 0]
         ]
     },
     {
