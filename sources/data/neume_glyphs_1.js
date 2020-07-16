@@ -9,17 +9,17 @@ var olw = 9;
 //--- petaste ---
 var pw = 7.5;
 var py = 0.5;
-//--- kentimata ---
+//--- kentemata ---
 var kuy = 1.5;
-//--- kentimata-ul ---
+//--- kentemata-ul ---
 var kulx = 1.2;
-//--- kentimata-uc ---
+//--- kentemata-uc ---
 var kucx = 2.6;
-//--- kentima ---
+//--- kentema ---
 var Kw = 1.4;
-//--- kentima-uc ---
+//--- kentema-uc ---
 var Kucx = 3.25;
-//--- kentima-r ---
+//--- kentema-r ---
 var Krx = ow;
 //--- hypsile ---
 var hy = 1.5;
@@ -709,8 +709,8 @@ glyphs_data.push(
             ['oligon-long', 0, 0],
             //--- ison-short-ul ---
             ['ison-short', -0.5, 1.5],
-            //--- kentimata-ur ---
-            ['kentimata', 5.75, kuy]
+            //--- kentemata-ur ---
+            ['kentemata', 5.75, kuy]
         ]
     },
     {
@@ -722,8 +722,8 @@ glyphs_data.push(
             ['oligon', 0, 0],
             //--- apostrophos-ul ---
             ['apostrophos', 0.25, auy],
-            //--- kentimata-ur ---
-            ['kentimata', 4.4, kuy]
+            //--- kentemata-ur ---
+            ['kentemata', 4.4, kuy]
         ]
     },
     {
@@ -735,8 +735,8 @@ glyphs_data.push(
             ['oligon', 0, 0],
             //--- hyporroe-ul ---
             ['hyporroe', 1.25, hpuy],
-            //--- kentimata-ur ---
-            ['kentimata', 4.4, kuy]
+            //--- kentemata-ur ---
+            ['kentemata', 4.4, kuy]
         ]
     },
     {
@@ -748,8 +748,8 @@ glyphs_data.push(
             ['oligon-long', aw, 0],
             //--- elaphron-short-ul ---
             ['elaphron-short', aw - 0.5, euy],
-            //--- kentimata-ur ---
-            ['kentimata', aw + 6, kuy],
+            //--- kentemata-ur ---
+            ['kentemata', aw + 6, kuy],
             //--- apostrophos-ul ---
             ['apostrophos', -0.5, euy]
         ]
@@ -763,8 +763,8 @@ glyphs_data.push(
             ['oligon-long', 0, 0],
             //--- elaphron-short-ul ---
             ['elaphron-short', -0.5, euy],
-            //--- kentimata-ur ---
-            ['kentimata', 6, kuy]
+            //--- kentemata-ur ---
+            ['kentemata', 6, kuy]
         ]
     },
     {
@@ -778,8 +778,8 @@ glyphs_data.push(
             ['elaphron-short', -0.5, e3uy],
             //--- apostrophos-uc ---
             ['apostrophos', adx - 0.75, e3uy + ady],
-            //--- kentimata-ur ---
-            ['kentimata', 6, kuy]
+            //--- kentemata-ur ---
+            ['kentemata', 6, kuy]
         ]
     },
     {
@@ -791,41 +791,41 @@ glyphs_data.push(
             ['oligon-long', 0, 0],
             //--- chamele-short-ul ---
             ['chamele-short', -0.25, chauy],
-            //--- kentimata-ur ---
-            ['kentimata', 6, kuy]
+            //--- kentemata-ur ---
+            ['kentemata', 6, kuy]
         ]
     },
     {
-        "name": "kentimata+oligon",
+        "name": "kentemata+oligon",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- kentimata-dr ---
-            ['kentimata', 4.7, -kuy]
+            //--- kentemata-dr ---
+            ['kentemata', 4.7, -kuy]
         ]
     },
     {
-        "name": "oligon+kentimata",
+        "name": "oligon+kentemata",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- kentimata-uc ---
-            ['kentimata', kucx, kuy]
+            //--- kentemata-uc ---
+            ['kentemata', kucx, kuy]
         ]
     },
     {
-        "name": "kentima+oligon",
+        "name": "kentema+oligon",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- kentima-dr ---
-            ['kentima', 5.25, -kuy]
+            //--- kentema-dr ---
+            ['kentema', 5.25, -kuy]
         ]
     },
     {
@@ -835,8 +835,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- kentima-r ---
-            ['kentima', Krx, 0]
+            //--- kentema-r ---
+            ['kentema', Krx, 0]
         ]
     },
     {
@@ -851,16 +851,16 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+2+kentimata",
+        "name": "oligon+2+kentemata",
         "unicode": uniStart++,
         "advanceWidth": Krx + Kw,
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- kentima-r ---
-            ['kentima', Krx, 0],
-            //--- kentimata-uc ---
-            ['kentimata', kucx, kuy]
+            //--- kentema-r ---
+            ['kentema', Krx, 0],
+            //--- kentemata-uc ---
+            ['kentemata', kucx, kuy]
         ]
     },
     {
@@ -870,8 +870,8 @@ glyphs_data.push(
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy]
         ]
     },
     {
@@ -881,8 +881,8 @@ glyphs_data.push(
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy + py]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy + py]
         ]
     },
     {
@@ -908,7 +908,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+4+kentimata",
+        "name": "oligon+4+kentemata",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -916,8 +916,8 @@ glyphs_data.push(
             ['oligon', 0, 0],
             //--- hypsile-r ---
             ['hypsile', 5, hy],
-            //--- kentimata-ul ---
-            ['kentimata', kulx, kuy]
+            //--- kentemata-ul ---
+            ['kentemata', kulx, kuy]
         ]
     },
     {
@@ -943,7 +943,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+5+kentimata",
+        "name": "oligon+5+kentemata",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -951,8 +951,8 @@ glyphs_data.push(
             ['oligon', 0, 0],
             //--- hypsile-l ---
             ['hypsile', 0.5, hy],
-            //--- kentimata-ur ---
-            ['kentimata', 4, kuy]
+            //--- kentemata-ur ---
+            ['kentemata', 4, kuy]
         ]
     },
     {
@@ -964,8 +964,8 @@ glyphs_data.push(
             ['oligon', 0, 0],
             //--- hypsile-r ---
             ['hypsile', hrx, hy],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy]
         ]
     },
     {
@@ -977,12 +977,12 @@ glyphs_data.push(
             ['petaste', 0, 0],
             //--- hypsile-r ---
             ['hypsile', hrx, hy + py],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy + py]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy + py]
         ]
     },
     {
-        "name": "oligon+6+kentimata",
+        "name": "oligon+6+kentemata",
         "unicode": uniStart++,
         "advanceWidth": Krx + Kw,
         "components": [
@@ -990,10 +990,10 @@ glyphs_data.push(
             ['oligon', 0, 0],
             //--- hypsile-r ---
             ['hypsile', 5, hy],
-            //--- kentima-r ---
-            ['kentima', Krx, 0],
-            //--- kentimata-ul ---
-            ['kentimata', kulx, kuy]
+            //--- kentema-r ---
+            ['kentema', Krx, 0],
+            //--- kentemata-ul ---
+            ['kentemata', kulx, kuy]
         ]
     },
     {
@@ -1005,8 +1005,8 @@ glyphs_data.push(
             ['oligon', 0, 0],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy]
         ]
     },
     {
@@ -1018,8 +1018,8 @@ glyphs_data.push(
             ['petaste', 0, 0],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy + py],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy + py]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy + py]
         ]
     },
     {
@@ -1059,8 +1059,8 @@ glyphs_data.push(
             ['hypsile', hrx, hy],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy],
-            //--- kentimata-uc ---
-            ['kentimata', kucx, kuy]
+            //--- kentemata-uc ---
+            ['kentemata', kucx, kuy]
         ]
     },
     {
@@ -1074,8 +1074,8 @@ glyphs_data.push(
             ['hypsile', hrx, hy + py],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy + py],
-            //--- kentimata-uc ---
-            ['kentimata', kucx, kuy + py]
+            //--- kentemata-uc ---
+            ['kentemata', kucx, kuy + py]
         ]
     },
     {
@@ -1089,8 +1089,8 @@ glyphs_data.push(
             ['hypsile', hrx, hy],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy]
         ]
     },
     {
@@ -1104,8 +1104,8 @@ glyphs_data.push(
             ['hypsile', hrx, hy + py],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy + py],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy + py]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy + py]
         ]
     },
     {
@@ -1119,8 +1119,8 @@ glyphs_data.push(
             ['hypsile', hlx, hy],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy]
         ]
     },
     {
@@ -1134,8 +1134,8 @@ glyphs_data.push(
             ['hypsile', hlx, hy + py],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy + py],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy + py]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy + py]
         ]
     },
     {
@@ -1181,8 +1181,8 @@ glyphs_data.push(
             ['hypsile', hrx, hy],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy],
-            //--- kentimata-uc ---
-            ['kentimata', kucx, kuy]
+            //--- kentemata-uc ---
+            ['kentemata', kucx, kuy]
         ]
     },
     {
@@ -1198,8 +1198,8 @@ glyphs_data.push(
             ['hypsile', hrx, hy + py],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy + py],
-            //--- kentimata-uc ---
-            ['kentimata', kucx, kuy + py]
+            //--- kentemata-uc ---
+            ['kentemata', kucx, kuy + py]
         ]
     },
     {
@@ -1215,8 +1215,8 @@ glyphs_data.push(
             ['hypsile', hrx, hy],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy]
         ]
     },
     {
@@ -1232,8 +1232,8 @@ glyphs_data.push(
             ['hypsile', hrx, hy + py],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy + py],
-            //--- kentima-uc ---
-            ['kentima', Kucx, kuy + py]
+            //--- kentema-uc ---
+            ['kentema', Kucx, kuy + py]
         ]
     },
     {
@@ -1249,10 +1249,10 @@ glyphs_data.push(
             ['hypsile', hrx, hy],
             //--- hypsile-uc ---
             ['hypsile', hucx, hucy],
-            //--- kentima-r ---
-            ['kentima', Krx, 0],
-            //--- kentimata-uc ---
-            ['kentimata', kucx, kuy]
+            //--- kentema-r ---
+            ['kentema', Krx, 0],
+            //--- kentemata-uc ---
+            ['kentemata', kucx, kuy]
         ]
     },
     {
@@ -1270,8 +1270,8 @@ glyphs_data.push(
             ['hypsile', hrx - 0.5, ouy + hy + py],
             //--- hypsile-uc ---
             ['hypsile', hucx - 0.5, ouy + hucy + py],
-            //--- kentima-uc ---
-            ['kentima', Kucx - 0.5, ouy + kuy + py]
+            //--- kentema-uc ---
+            ['kentema', Kucx - 0.5, ouy + kuy + py]
         ]
     }
 
