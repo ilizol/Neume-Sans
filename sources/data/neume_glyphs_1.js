@@ -42,10 +42,10 @@ var adrx = 5.75;
 var adry = -1.75;
 //--- apostrophos-uc ---
 var aucx = 1.75;
-//--- hyporroe ---
+//--- hyporrhoe ---
 var hpw = 1.8;
 var hpuy = 1.7;
-//--- hyporroe-uc ---
+//--- hyporrhoe-uc ---
 var hpucx = 3.1;
 //--- elaphron ---
 var ew = 7.5;
@@ -69,7 +69,7 @@ var vaw = 2.5;
 
 glyphs_data.push(
     {
-        "name": "ison+klasma",
+        "name": "ison_klasmaU",
         "unicode": uniStart++,
         "advanceWidth": iw,
         "components": [
@@ -80,7 +80,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+klasma",
+        "name": "oligon_klasmaU",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -91,7 +91,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+klasma",
+        "name": "petaste_klasmaD",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -102,7 +102,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "apostrophos+klasma",
+        "name": "apostrophos_klasmaU",
         "unicode": uniStart++,
         "advanceWidth": aw,
         "components": [
@@ -113,7 +113,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "elaphron+klasma",
+        "name": "elaphron_klasmaU",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
@@ -124,7 +124,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele+klasma",
+        "name": "chamele_klasmaU",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
@@ -135,7 +135,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "apostrophos+haple",
+        "name": "apostrophos_hapleD",
         "unicode": uniStart++,
         "advanceWidth": aw,
         "components": [
@@ -146,18 +146,18 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "hyporroe+haple",
+        "name": "hyporrhoe_hapleD",
         "unicode": uniStart++,
         "advanceWidth": hpw,
         "components": [
-            //--- hyporroe ---
-            ['hyporroe', 0, 0],
+            //--- hyporrhoe ---
+            ['hyporrhoe', 0, 0],
             //--- haple-d ---
             ['haple', 0, hapd2y]
         ]
     },
     {
-        "name": "ison+diple",
+        "name": "ison_dipleD",
         "unicode": uniStart++,
         "advanceWidth": iw,
         "components": [
@@ -168,7 +168,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+diple",
+        "name": "oligon_dipleD",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -179,7 +179,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "apostrophos+diple",
+        "name": "apostrophos_dipleD",
         "unicode": uniStart++,
         "advanceWidth": aw,
         "components": [
@@ -190,7 +190,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "elaphron+diple",
+        "name": "elaphron_dipleD",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
@@ -201,7 +201,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "ison+triple",
+        "name": "ison_tripleD",
         "unicode": uniStart++,
         "advanceWidth": iw,
         "components": [
@@ -212,7 +212,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "apostrophos+triple",
+        "name": "apostrophos_tripleD",
         "unicode": uniStart++,
         "advanceWidth": aw,
         "components": [
@@ -223,7 +223,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "apostrophos+tetraple",
+        "name": "apostrophos_tetrapleD",
         "unicode": uniStart++,
         "advanceWidth": aw,
         "components": [
@@ -234,7 +234,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia+ison",
+        "name": "vareia_ison",
         "unicode": uniStart++,
         "advanceWidth": vaw + iw,
         "components": [
@@ -245,7 +245,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia+oligon",
+        "name": "vareia_oligon",
         "unicode": uniStart++,
         "advanceWidth": vaw + ow,
         "components": [
@@ -256,7 +256,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia+petaste",
+        "name": "vareia_petaste",
         "unicode": uniStart++,
         "advanceWidth": vaw + pw,
         "components": [
@@ -267,7 +267,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia+apostrophos*2",
+        "name": "vareia_apos_apos",
         "unicode": uniStart++,
         "advanceWidth": vaw + 2 * aw,
         "components": [
@@ -280,7 +280,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia+apostrophoi",
+        "name": "vareia_apostrophoi",
         "unicode": uniStart++,
         "advanceWidth": vaw + 2.5 + aw,
         "components": [
@@ -293,7 +293,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia+haple",
+        "name": "vareia_haple",
         "unicode": uniStart++,
         "advanceWidth": vaw + hapw,
         "components": [
@@ -304,7 +304,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia+diple",
+        "name": "vareia_diple",
         "unicode": uniStart++,
         "advanceWidth": vaw + 2 * hapw,
         "components": [
@@ -315,7 +315,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia+triple",
+        "name": "vareia_triple",
         "unicode": uniStart++,
         "advanceWidth": vaw + 3 * hapw,
         "components": [
@@ -326,7 +326,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia+tetraple",
+        "name": "vareia_tetraple",
         "unicode": uniStart++,
         "advanceWidth": vaw + 4 * hapw,
         "components": [
@@ -337,7 +337,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "ison+apostrophos",
+        "name": "ison_apostrophosDR",
         "unicode": uniStart++,
         "advanceWidth": 5 + aw,
         "components": [
@@ -359,18 +359,18 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "apostrophos+hyporroe",
+        "name": "apostrophos_hyporrhoe",
         "unicode": uniStart++,
         "advanceWidth": aw + hpw,
         "components": [
             //--- apostrophos ---
             ['apostrophos', 0, 0],
-            //--- hyporroe-r ---
-            ['hyporroe', aw, 0]
+            //--- hyporrhoe-r ---
+            ['hyporrhoe', aw, 0]
         ]
     },
     {
-        "name": "syn-elaphron",
+        "name": "synelaphron",
         "unicode": uniStart++,
         "advanceWidth": aw + ew,
         "components": [
@@ -381,7 +381,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+ison",
+        "name": "oligon_isonU",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -392,7 +392,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+ison",
+        "name": "petaste_isonU",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -403,7 +403,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+apostrophos",
+        "name": "oligon_apostrophosU",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -414,7 +414,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+apostrophos",
+        "name": "petaste_apostrophosU",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -425,29 +425,29 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+hyporroe",
+        "name": "oligon_hyporrhoeU",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hyporroe-uc ---
-            ['hyporroe', hpucx, hpuy]
+            //--- hyporrhoe-uc ---
+            ['hyporrhoe', hpucx, hpuy]
         ]
     },
     {
-        "name": "petaste+hyporroe",
+        "name": "petaste_hyporrhoeU",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
             //--- petaste ---
             ['petaste', 0, 0],
-            //--- hyporroe-uc ---
-            ['hyporroe', hpucx, hpuy + py]
+            //--- hyporrhoe-uc ---
+            ['hyporrhoe', hpucx, hpuy + py]
         ]
     },
     {
-        "name": "oligon+syn-elaphron",
+        "name": "oligon_synelaphronU",
         "unicode": uniStart++,
         "advanceWidth": ow + aw,
         "components": [
@@ -460,7 +460,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+syn-elaphron",
+        "name": "petaste_synelaphronU",
         "unicode": uniStart++,
         "advanceWidth": pw + aw,
         "components": [
@@ -473,7 +473,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+elaphron",
+        "name": "oligon_elaphronU",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -484,7 +484,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+elaphron",
+        "name": "petaste_elaphronU",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -495,7 +495,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "elaphron-3",
+        "name": "elaphron.d3",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
@@ -506,7 +506,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+elaphron-3",
+        "name": "oligon_elaphron.d3U",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -519,7 +519,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+elaphron-3",
+        "name": "petaste_elaphron.d3U",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -532,7 +532,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+chamele",
+        "name": "oligon_chameleU",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -543,7 +543,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+chamele",
+        "name": "petaste_chameleU",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -554,7 +554,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-5",
+        "name": "chamele.d5",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
@@ -565,7 +565,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-6",
+        "name": "chamele.d6",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
@@ -576,7 +576,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-7",
+        "name": "chamele.d7",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
@@ -589,7 +589,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-8",
+        "name": "chamele.d8",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
@@ -600,7 +600,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-9",
+        "name": "chamele.d9",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
@@ -613,7 +613,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-10",
+        "name": "chamele.d10",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
@@ -626,7 +626,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-11",
+        "name": "chamele.d11",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
@@ -641,7 +641,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-12",
+        "name": "chamele.d12",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
@@ -654,7 +654,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-13",
+        "name": "chamele.d13",
         "unicode": uniStart++,
         "advanceWidth": chaw,
         "components": [
@@ -669,7 +669,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-14",
+        "name": "chamele.d14",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
@@ -684,7 +684,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-15",
+        "name": "chamele.d15",
         "unicode": uniStart++,
         "advanceWidth": ew,
         "components": [
@@ -701,7 +701,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+ison+1",
+        "name": "olig_isonUL_ken2UR",
         "unicode": uniStart++,
         "advanceWidth": olw,
         "components": [
@@ -714,7 +714,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+apostrophos+1",
+        "name": "olig_aposUL_ken2UR",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -727,20 +727,20 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+hyporroe+1",
+        "name": "olig_hypoUL_ken2UR",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
             //--- oligon ---
             ['oligon', 0, 0],
-            //--- hyporroe-ul ---
-            ['hyporroe', 1.25, hpuy],
+            //--- hyporrhoe-ul ---
+            ['hyporrhoe', 1.25, hpuy],
             //--- kentemata-ur ---
             ['kentemata', 4.4, kuy]
         ]
     },
     {
-        "name": "oligon+syn-elaphron+1",
+        "name": "olig_syneUL_ken2UR",
         "unicode": uniStart++,
         "advanceWidth": olw + aw,
         "components": [
@@ -755,7 +755,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+elaphron+1",
+        "name": "olig_elafUL_ken2UR",
         "unicode": uniStart++,
         "advanceWidth": olw,
         "components": [
@@ -768,7 +768,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+elaphron-3+1",
+        "name": "olig_elaf.d3UL_ken2UR",
         "unicode": uniStart++,
         "advanceWidth": olw,
         "components": [
@@ -783,7 +783,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+chamele+1",
+        "name": "olig_chamUL_ken2UR",
         "unicode": uniStart++,
         "advanceWidth": olw,
         "components": [
@@ -796,7 +796,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "kentemata+oligon",
+        "name": "oligon_kentemataDR",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -807,7 +807,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+kentemata",
+        "name": "oligon_kentemataU",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -818,7 +818,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "kentema+oligon",
+        "name": "oligon_kentemaDR",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -829,7 +829,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+2",
+        "name": "oligon_kentemaR",
         "unicode": uniStart++,
         "advanceWidth": Krx + Kw,
         "components": [
@@ -840,7 +840,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+2",
+        "name": "petaste_oligonU",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -851,7 +851,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+2+kentemata",
+        "name": "olig_kentR_ken2U",
         "unicode": uniStart++,
         "advanceWidth": Krx + Kw,
         "components": [
@@ -864,7 +864,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+3",
+        "name": "oligon.a3",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -875,7 +875,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+3",
+        "name": "petaste.a3",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -886,7 +886,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+4",
+        "name": "oligon.a4",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -897,7 +897,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+4",
+        "name": "petaste.a4",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -908,7 +908,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+4+kentemata",
+        "name": "oligon.a4_kentemataUL",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -921,7 +921,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+5",
+        "name": "oligon.a5",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -932,7 +932,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+5",
+        "name": "petaste.a5",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -943,7 +943,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+5+kentemata",
+        "name": "oligon.a5_kentemataUR",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -956,7 +956,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+6",
+        "name": "oligon.a6",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -969,7 +969,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+6",
+        "name": "petaste.a6",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -982,7 +982,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+6+kentemata",
+        "name": "oligon.a6_kentemataUL",
         "unicode": uniStart++,
         "advanceWidth": Krx + Kw,
         "components": [
@@ -997,7 +997,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+7",
+        "name": "oligon.a7",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -1010,7 +1010,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+7",
+        "name": "petaste.a7",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -1023,7 +1023,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+8",
+        "name": "oligon.a8",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -1036,7 +1036,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+8",
+        "name": "petaste.a8",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -1049,7 +1049,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+9",
+        "name": "oligon.a9",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -1064,7 +1064,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+9",
+        "name": "petaste.a9",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -1079,7 +1079,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+10",
+        "name": "oligon.a10",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -1094,7 +1094,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+10",
+        "name": "petaste.a10",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -1109,7 +1109,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+11",
+        "name": "oligon.a11",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -1124,7 +1124,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+11",
+        "name": "petaste.a11",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -1139,7 +1139,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+12",
+        "name": "oligon.a12",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -1154,7 +1154,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+12",
+        "name": "petaste.a12",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -1169,7 +1169,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+13",
+        "name": "oligon.a13",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -1186,7 +1186,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+13",
+        "name": "petaste.a13",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -1203,7 +1203,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+14",
+        "name": "oligon.a14",
         "unicode": uniStart++,
         "advanceWidth": ow,
         "components": [
@@ -1220,7 +1220,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+14",
+        "name": "petaste.a14",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [
@@ -1237,7 +1237,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon+15",
+        "name": "oligon.a15",
         "unicode": uniStart++,
         "advanceWidth": Krx + Kw,
         "components": [
@@ -1256,7 +1256,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "petaste+15",
+        "name": "petaste.a15",
         "unicode": uniStart++,
         "advanceWidth": pw,
         "components": [

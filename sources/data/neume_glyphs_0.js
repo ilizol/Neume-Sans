@@ -89,7 +89,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "ison-short",
+        "name": "ison.short",
         "unicode": uniStart++,
         "advanceWidth": 6.25,
         "components": [
@@ -107,7 +107,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "oligon-long",
+        "name": "oligon.long",
         "unicode": uniStart++,
         "advanceWidth": 9,
         "components": [
@@ -161,12 +161,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "hyporroe",
+        "name": "hyporrhoe",
         "unicode": uniStart++,
         "advanceWidth": 1.8,
         "components": [
-            // hyporroe
-            ['hyporroe', 0, 0]
+            // hyporrhoe
+            ['hyporrhoe', 0, 0]
         ]
     },
     {
@@ -179,7 +179,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "elaphron-short",
+        "name": "elaphron.short",
         "unicode": uniStart++,
         "advanceWidth": 6.5,
         "components": [
@@ -197,7 +197,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "chamele-short",
+        "name": "chamele.short",
         "unicode": uniStart++,
         "advanceWidth": 6,
         "components": [
