@@ -251,12 +251,12 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "vareia",
+        "name": "bareia",
         "unicode": uniStart++,
         "advanceWidth": 2.5,
         "components": [
-            // vareia
-            ['vareia', 0, 0]
+            // bareia
+            ['bareia', 0, 0]
         ]
     }
 );
