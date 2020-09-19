@@ -276,5 +276,23 @@ glyphs_data.push(
             // psephiston-long
             ['psephiston-long', 0, 0]
         ]
+    },
+    {
+        "name": "homalon",
+        "unicode": uniStart++,
+        "advanceWidth": 7.5,
+        "components": [
+            // homalon
+            ['homalon', 0, 0]
+        ]
+    },
+    {
+        "name": "homalon.long",
+        "unicode": uniStart++,
+        "advanceWidth": 8.5,
+        "components": [
+            // homalon-long
+            ['homalon-long', 0, 0]
+        ]
     }
 );

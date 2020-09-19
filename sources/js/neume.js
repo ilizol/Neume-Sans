@@ -89,7 +89,7 @@ for (var i = 0; i < font2.glyphs.length; i++)
     var glyph = font2.glyphs.get(i);
     var ctx = createGlyphCanvas(glyph, 458);
     var x = 40;
-    var y = 340;
+    var y = 320;
     var fontSize = 340;
     var advanceWidth = glyph.advanceWidth;
     //alert(glyph.advanceWidth);

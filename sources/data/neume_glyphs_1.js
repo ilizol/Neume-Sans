@@ -71,6 +71,11 @@ var psedx = 0.25;
 var psedy = -2;
 var psed2x = 1.5;
 var psed2y = -2.75;
+//--- homalon ---
+var homdx = 0.25;
+var homdy = -2;
+var homd2x = 1.5;
+var homd2y = -2.75;
 
 glyphs_data.push(
     {
@@ -372,8 +377,8 @@ glyphs_data.push(
             ['petaste', 0, 0],
             //--- klasma-d ---
             ['klasma', 3.75, kldy],
-            //--- psephiston-d2r ---
-            ['psephiston', psed2x, psed2y]
+            //--- psephiston-long-d2r ---
+            ['psephiston-long', psed2x, psed2y]
         ]
     },
     {
@@ -387,6 +392,54 @@ glyphs_data.push(
             ['kentema', 5.25, -kuy],
             //--- psephiston-long-d2r ---
             ['psephiston-long', psed2x, psed2y]
+        ]
+    },
+    {
+        "name": "ison_homalonD",
+        "unicode": uniStart++,
+        "advanceWidth": iw,
+        "components": [
+            //--- ison ---
+            ['ison', 0, 0],
+            //--- homalon-d ---
+            ['homalon', homdx, homdy]
+        ]
+    },
+    {
+        "name": "oligon_homalonD",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- homalon-d ---
+            ['homalon', homdx, homdy]
+        ]
+    },
+    {
+        "name": "apos_ison_homaDR",
+        "unicode": uniStart++,
+        "advanceWidth": aw + iw,
+        "components": [
+            //--- apostrophos ---
+            ['apostrophos', 0, 0],
+            //--- ison ---
+            ['ison', aw, 0],
+            //--- homalon-dr ---
+            ['homalon', aw / 3 + homdx, homdy]
+        ]
+    },
+    {
+        "name": "olig_ken2DR_homaD2R",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- kentemata-dr ---
+            ['kentemata', 4.7, -kuy],
+            //--- homalon-d2r ---
+            ['homalon', homd2x, homd2y]
         ]
     },
     {
