@@ -66,6 +66,11 @@ var hapdy = -1;
 var hapd2y = -1.25;
 //--- bareia ---
 var vaw = 2.5;
+//--- psephiston ---
+var psedx = 0.25;
+var psedy = -2;
+var psed2x = 1.5;
+var psed2y = -2.75;
 
 glyphs_data.push(
     {
@@ -152,7 +157,7 @@ glyphs_data.push(
         "components": [
             //--- hyporrhoe ---
             ['hyporrhoe', 0, 0],
-            //--- haple-d ---
+            //--- haple-d2 ---
             ['haple', 0, hapd2y]
         ]
     },
@@ -334,6 +339,54 @@ glyphs_data.push(
             ['bareia', 0, 0],
             //--- tetraple ---
             ['tetraple', vaw, 0]
+        ]
+    },
+    {
+        "name": "ison_psephistonD",
+        "unicode": uniStart++,
+        "advanceWidth": iw,
+        "components": [
+            //--- ison ---
+            ['ison', 0, 0],
+            //--- psephiston-d ---
+            ['psephiston', psedx, psedy]
+        ]
+    },
+    {
+        "name": "oligon_psephistonD",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- psephiston-long-d ---
+            ['psephiston-long', psedx, psedy]
+        ]
+    },
+    {
+        "name": "peta_klasD_psefD2R",
+        "unicode": uniStart++,
+        "advanceWidth": pw,
+        "components": [
+            //--- petaste ---
+            ['petaste', 0, 0],
+            //--- klasma-d ---
+            ['klasma', 3.75, kldy],
+            //--- psephiston-d2r ---
+            ['psephiston', psed2x, psed2y]
+        ]
+    },
+    {
+        "name": "olig_kentDR_psefD2R",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- kentema-dr ---
+            ['kentema', 5.25, -kuy],
+            //--- psephiston-long-d2r ---
+            ['psephiston-long', psed2x, psed2y]
         ]
     },
     {

@@ -258,5 +258,23 @@ glyphs_data.push(
             // bareia
             ['bareia', 0, 0]
         ]
+    },
+    {
+        "name": "psephiston",
+        "unicode": uniStart++,
+        "advanceWidth": 7.5,
+        "components": [
+            // psephiston
+            ['psephiston', 0, 0]
+        ]
+    },
+    {
+        "name": "psephiston.long",
+        "unicode": uniStart++,
+        "advanceWidth": 8,
+        "components": [
+            // psephiston-long
+            ['psephiston-long', 0, 0]
+        ]
     }
 );
