@@ -65,7 +65,7 @@ var hapw = 1;
 var hapdy = -1;
 var hapd2y = -1.25;
 //--- bareia ---
-var vaw = 2.5;
+var baw = 2.5;
 //--- psephiston ---
 var psedx = 0.25;
 var psedy = -2;
@@ -241,104 +241,104 @@ glyphs_data.push(
     {
         "name": "bareia_ison",
         "unicode": uniStart++,
-        "advanceWidth": vaw + iw,
+        "advanceWidth": baw + iw,
         "components": [
             //--- bareia ---
             ['bareia', 0, 0],
             //--- ison ---
-            ['ison', vaw, 0]
+            ['ison', baw, 0]
         ]
     },
     {
         "name": "bareia_oligon",
         "unicode": uniStart++,
-        "advanceWidth": vaw + ow,
+        "advanceWidth": baw + ow,
         "components": [
             //--- bareia ---
             ['bareia', 0, 0],
             //--- oligon ---
-            ['oligon', vaw, 0]
+            ['oligon', baw, 0]
         ]
     },
     {
         "name": "bareia_petaste",
         "unicode": uniStart++,
-        "advanceWidth": vaw + pw,
+        "advanceWidth": baw + pw,
         "components": [
             //--- bareia ---
             ['bareia', 0, 0],
             //--- petaste ---
-            ['petaste', vaw, 0]
+            ['petaste', baw, 0]
         ]
     },
     {
         "name": "bareia_apos_apos",
         "unicode": uniStart++,
-        "advanceWidth": vaw + 2 * aw,
+        "advanceWidth": baw + 2 * aw,
         "components": [
             //--- bareia ---
             ['bareia', 0, 0],
             //--- apostrophos 1 ---
-            ['apostrophos', vaw, 0],
+            ['apostrophos', baw, 0],
             //--- apostrophos 2 ---
-            ['apostrophos', vaw + aw, 0]
+            ['apostrophos', baw + aw, 0]
         ]
     },
     {
         "name": "bareia_apostrophoi",
         "unicode": uniStart++,
-        "advanceWidth": vaw + 2.5 + aw,
+        "advanceWidth": baw + 2.5 + aw,
         "components": [
             //--- bareia ---
             ['bareia', 0, 0],
             //--- apostrophos-ul ---
-            ['apostrophos', vaw, 0.25],
+            ['apostrophos', baw, 0.25],
             //--- apostrophos-dr ---
-            ['apostrophos', vaw + 2.5, adry]
+            ['apostrophos', baw + 2.5, adry]
         ]
     },
     {
         "name": "bareia_haple",
         "unicode": uniStart++,
-        "advanceWidth": vaw + hapw,
+        "advanceWidth": baw + hapw,
         "components": [
             //--- bareia ---
             ['bareia', 0, 0],
             //--- haple ---
-            ['haple', vaw, 0]
+            ['haple', baw, 0]
         ]
     },
     {
         "name": "bareia_diple",
         "unicode": uniStart++,
-        "advanceWidth": vaw + 2 * hapw,
+        "advanceWidth": baw + 2 * hapw,
         "components": [
             //--- bareia ---
             ['bareia', 0, 0],
             //--- diple ---
-            ['diple', vaw, 0]
+            ['diple', baw, 0]
         ]
     },
     {
         "name": "bareia_triple",
         "unicode": uniStart++,
-        "advanceWidth": vaw + 3 * hapw,
+        "advanceWidth": baw + 3 * hapw,
         "components": [
             //--- bareia ---
             ['bareia', 0, 0],
             //--- triple ---
-            ['triple', vaw, 0]
+            ['triple', baw, 0]
         ]
     },
     {
         "name": "bareia_tetraple",
         "unicode": uniStart++,
-        "advanceWidth": vaw + 4 * hapw,
+        "advanceWidth": baw + 4 * hapw,
         "components": [
             //--- bareia ---
             ['bareia', 0, 0],
             //--- tetraple ---
-            ['tetraple', vaw, 0]
+            ['tetraple', baw, 0]
         ]
     },
     {
