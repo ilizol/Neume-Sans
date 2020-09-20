@@ -76,6 +76,11 @@ var homdx = 0.25;
 var homdy = -2;
 var homd2x = 1.5;
 var homd2y = -2.75;
+//--- antikenoma ---
+var antdx = 0.5;
+var antdy = -1.5;
+var antd2x = 0.5;
+var antd2y = -2.5;
 
 glyphs_data.push(
     {
@@ -156,7 +161,7 @@ glyphs_data.push(
         ]
     },
     {
-        "name": "hyporrhoe_hapleD",
+        "name": "hyporrhoe_hapleD2",
         "unicode": uniStart++,
         "advanceWidth": hpw,
         "components": [
@@ -440,6 +445,60 @@ glyphs_data.push(
             ['kentemata', 4.7, -kuy],
             //--- homalon-d2r ---
             ['homalon', homd2x, homd2y]
+        ]
+    },
+    {
+        "name": "oligon_antikenomaD",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- antikenoma-d ---
+            ['antikenoma', antdx, antdy]
+        ]
+    },
+    {
+        "name": "olig_kentDR_antiD2",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- kentema-dr ---
+            ['kentema', 5.25, -kuy],
+            //--- antikenoma-d2 ---
+            ['antikenoma', antd2x, antd2y]
+        ]
+    },
+    {
+        "name": "apos_apos_antiD_haplD2",
+        "unicode": uniStart++,
+        "advanceWidth": 2 * aw,
+        "components": [
+            //--- apostrophos 1 ---
+            ['apostrophos', 0, 0],
+            //--- apostrophos 2 ---
+            ['apostrophos', aw, 0],
+            //--- antikenoma-short-d ---
+            ['antikenoma-short', - aw / 3, 0.75 * antdy],
+            //--- haple-d2 ---
+            ['haple', aw / 2, 1.5 * hapd2y]
+        ]
+    },
+    {
+        "name": "bare_peta_antiD_haplD2",
+        "unicode": uniStart++,
+        "advanceWidth": baw + pw,
+        "components": [
+            //--- bareia ---
+            ['bareia', 0, 0],
+            //--- petaste ---
+            ['petaste', baw, 0],
+            //--- antikenoma-d ---
+            ['antikenoma', baw + pw / 4, antdy],
+            //--- haple-d2 ---
+            ['haple', pw, 1.75 * hapd2y]
         ]
     },
     {

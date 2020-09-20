@@ -294,5 +294,23 @@ glyphs_data.push(
             // homalon-long
             ['homalon-long', 0, 0]
         ]
+    },
+    {
+        "name": "antikenoma",
+        "unicode": uniStart++,
+        "advanceWidth": 7.5,
+        "components": [
+            // antikenoma
+            ['antikenoma', 0, 0]
+        ]
+    },
+    {
+        "name": "antikenoma.short",
+        "unicode": uniStart++,
+        "advanceWidth": 6.5,
+        "components": [
+            // antikenoma-short
+            ['antikenoma-short', 0, 0]
+        ]
     }
 );
