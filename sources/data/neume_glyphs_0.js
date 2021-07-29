@@ -312,5 +312,23 @@ glyphs_data.push(
             // antikenoma-short
             ['antikenoma-short', 0, 0]
         ]
+    },
+    {
+        "name": "heteron",
+        "unicode": uniStart++,
+        "advanceWidth": 7.5,
+        "components": [
+            // heteron
+            ['heteron', 0, 0]
+        ]
+    },
+    {
+        "name": "heteron.long",
+        "unicode": uniStart++,
+        "advanceWidth": 8.5,
+        "components": [
+            // heteron-long
+            ['heteron-long', 0, 0]
+        ]
     }
 );

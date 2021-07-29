@@ -81,6 +81,11 @@ var antdx = 0.5;
 var antdy = -1.5;
 var antd2x = 0.5;
 var antd2y = -2.5;
+//--- heteron ---
+var hetdx = -0.75;
+var hetdy = -1.25;
+var hetd2x = 1.75;
+var hetd2y = -1.55;
 
 glyphs_data.push(
     {
@@ -499,6 +504,34 @@ glyphs_data.push(
             ['antikenoma', baw + pw / 4, antdy],
             //--- haple-d2 ---
             ['haple', pw, 1.75 * hapd2y]
+        ]
+    },
+    {
+        "name": "apos_ison_heteD",
+        "unicode": uniStart++,
+        "advanceWidth": aw + iw,
+        "components": [
+            //--- apostrophos ---
+            ['apostrophos', 0, 0],
+            //--- ison ---
+            ['ison', aw, 0],
+            //--- heteron-d ---
+            ['heteron', aw / 3 + hetdx, hetdy]
+        ]
+    },
+    {
+        "name": "oligon_dipleD_heteD2",
+        "unicode": uniStart++,
+        "advanceWidth": ow + aw,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- diple-d ---
+            ['diple', ow / 2.5, hapdy],
+            //--- apostrophos ---
+            ['apostrophos', ow, 0],
+            //--- heteron-long-d2 ---
+            ['heteron-long', hetd2x, hetd2y]
         ]
     },
     {
