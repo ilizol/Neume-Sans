@@ -91,6 +91,10 @@ var enddx = 0.25;
 var enddy = -1.75;
 var endd2x = -1.15;
 var endd2y = -2;
+//--- gorgon ---
+var gorw = 0.35;
+var gordy = -2;
+var goru2y = 3;
 
 glyphs_data.push(
     {
@@ -552,7 +556,7 @@ glyphs_data.push(
             ['ring-long', 2.25 + enddx, -1.25 + enddy],
             // haple 1
             ['haple', 2 + enddx, 0.75 + enddy],
-            // haple 1
+            // haple 2
             ['haple', 4.75 + enddx, 0.75 + enddy]
         ]
     },
@@ -569,8 +573,32 @@ glyphs_data.push(
             ['ring-long', 1.75 + endd2x, -1.25 + endd2y],
             // haple 1
             ['haple', 1.5 + endd2x, 0.75 + endd2y],
-            // haple 1
+            // haple 2
             ['haple', 4.25 + endd2x, 0.75 + endd2y]
+        ]
+    },
+    {
+        "name": "olig_gorgD",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- gorgon-dc ---
+            ['gorgon', ow / 2 - gorw, gordy]
+        ]
+    },
+    {
+        "name": "olig_ken2U_gorgU2",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- kentemata-uc ---
+            ['kentemata', kucx, kuy],
+            //--- gorgon-short-u2c ---
+            ['gorgon-short', ow / 2 - gorw, goru2y]
         ]
     },
     {

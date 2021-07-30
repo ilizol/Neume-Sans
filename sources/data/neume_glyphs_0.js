@@ -342,7 +342,7 @@ glyphs_data.push(
             ['ring-long', 2.25, -1.25],
             // haple 1
             ['haple', 2, 0.75],
-            // haple 1
+            // haple 2
             ['haple', 4.75, 0.75]
         ]
     },
@@ -357,7 +357,7 @@ glyphs_data.push(
             ['ring-long', 1.75, -1.25],
             // haple 1
             ['haple', 1.5, 0.75],
-            // haple 1
+            // haple 2
             ['haple', 4.25, 0.75]
         ]
     },
@@ -377,6 +377,24 @@ glyphs_data.push(
         "components": [
             // ring-long
             ['ring-long', 0, 0]
+        ]
+    },
+    {
+        "name": "gorgon",
+        "unicode": uniStart++,
+        "advanceWidth": 1.5,
+        "components": [
+            // gorgon
+            ['gorgon', 0, 0]
+        ]
+    },
+    {
+        "name": "gorgon.short",
+        "unicode": uniStart++,
+        "advanceWidth": 1.25,
+        "components": [
+            // gorgon-short
+            ['gorgon-short', 0, 0]
         ]
     }
 );
