@@ -330,5 +330,53 @@ glyphs_data.push(
             // heteron-long
             ['heteron-long', 0, 0]
         ]
+    },
+    {
+        "name": "endophonon",
+        "unicode": uniStart++,
+        "advanceWidth": 7.5,
+        "components": [
+            // endophonon
+            ['endophonon', 0, 0],
+            // ring-long
+            ['ring-long', 2.25, -1.25],
+            // haple 1
+            ['haple', 2, 0.75],
+            // haple 1
+            ['haple', 4.75, 0.75]
+        ]
+    },
+    {
+        "name": "endophonon.short",
+        "unicode": uniStart++,
+        "advanceWidth": 6.5,
+        "components": [
+            // endophonon-short
+            ['endophonon-short', 0, 0],
+            // ring-long
+            ['ring-long', 1.75, -1.25],
+            // haple 1
+            ['haple', 1.5, 0.75],
+            // haple 1
+            ['haple', 4.25, 0.75]
+        ]
+    },
+    {
+        "name": "ring",
+        "unicode": uniStart++,
+        "advanceWidth": 2,
+        "components": [
+            // ring
+            ['ring', 0, 0]
+        ]
+    },
+    {
+        "name": "ring.long",
+        "unicode": uniStart++,
+        "advanceWidth": 3,
+        "components": [
+            // ring-long
+            ['ring-long', 0, 0]
+        ]
     }
 );

@@ -86,6 +86,11 @@ var hetdx = -0.75;
 var hetdy = -1.25;
 var hetd2x = 1.75;
 var hetd2y = -1.55;
+//--- endophonon ---
+var enddx = 0.25;
+var enddy = -1.75;
+var endd2x = -1.15;
+var endd2y = -2;
 
 glyphs_data.push(
     {
@@ -532,6 +537,40 @@ glyphs_data.push(
             ['apostrophos', ow, 0],
             //--- heteron-long-d2 ---
             ['heteron-long', hetd2x, hetd2y]
+        ]
+    },
+    {
+        "name": "oligon_endoD",
+        "unicode": uniStart++,
+        "advanceWidth": ow,
+        "components": [
+            //--- oligon ---
+            ['oligon', 0, 0],
+            //--- endophonon-d ---
+            ['endophonon', enddx, enddy],
+            // ring-long
+            ['ring-long', 2.25 + enddx, -1.25 + enddy],
+            // haple 1
+            ['haple', 2 + enddx, 0.75 + enddy],
+            // haple 1
+            ['haple', 4.75 + enddx, 0.75 + enddy]
+        ]
+    },
+    {
+        "name": "apos_endoD2",
+        "unicode": uniStart++,
+        "advanceWidth": aw,
+        "components": [
+            //--- apostrophos ---
+            ['apostrophos', 0, 0],
+            //--- endophonon-short-d2 ---
+            ['endophonon-short', endd2x, endd2y],
+            // ring-long
+            ['ring-long', 1.75 + endd2x, -1.25 + endd2y],
+            // haple 1
+            ['haple', 1.5 + endd2x, 0.75 + endd2y],
+            // haple 1
+            ['haple', 4.25 + endd2x, 0.75 + endd2y]
         ]
     },
     {
