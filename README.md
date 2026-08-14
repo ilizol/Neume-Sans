@@ -1,4 +1,4 @@
-# Neume Sans
+# [WIP] Neume Sans
 
 Neume Sans is a typeface created with [opentype.js](https://github.com/opentypejs/opentype.js).
 
