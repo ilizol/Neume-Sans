@@ -1,3 +1,102 @@
+//--- ison ---
+var iw = 7.25;
+var iuy = 1.5;
+//--- oligon ---
+var ow = 8;
+var ouy = 1.5;
+//--- oligon-long ---
+var olw = 9;
+//--- petaste ---
+var pw = 7.5;
+var py = 0.5;
+//--- kentemata ---
+var kw = 2.8;
+var kuy = 1.5;
+//--- kentemata-ul ---
+var kulx = 1.2;
+//--- kentemata-uc ---
+var kucx = 2.6;
+//--- kentema ---
+var Kw = 1.4;
+//--- kentema-uc ---
+var Kucx = 3.25;
+//--- kentema-r ---
+var Krx = ow;
+//--- hypsele ---
+var hy = 1.5;
+//--- hypsele-l ---
+var hlx = 0;
+//--- hypsele-r ---
+var hrx = 5.7;
+//--- hypsele-c ---
+var hcx = 2.8;
+//--- hypsele-uc ---
+var hucx = 3.4;
+var hucy = 3.175;
+//--- apostrophos ---
+var aw = 3.25;
+var auy = 1.5;
+var adx = 1.75;
+var ady = -1;
+//--- apostrophos-dr ---
+var adrx = 5.75;
+var adry = -1.75;
+//--- apostrophos-uc ---
+var aucx = 1.75;
+//--- hyporrhoe ---
+var hpw = 1.8;
+var hpuy = 1.7;
+//--- hyporrhoe-uc ---
+var hpucx = 3.1;
+//--- elaphron ---
+var ew = 7.5;
+var euy = 1.85;
+var e3uy = 2.15;
+var edy = -2;
+//--- chamele ---
+var chaw = 6.5;
+var chauy = 1.75;
+var chauuy = 2.5;
+//--- klasma ---
+var kluy = 1.75;
+var klu2y = 2;
+var kldy = -1.75;
+//--- haple ---
+var hapw = 1;
+var hapdy = -1;
+var hapd2y = -1.25;
+//--- bareia ---
+var baw = 2.5;
+//--- psephiston ---
+var psedx = 0.25;
+var psedy = -2;
+var psed2x = 1.5;
+var psed2y = -2.75;
+//--- homalon ---
+var homdx = 0.25;
+var homdy = -2;
+var homd2x = 1.5;
+var homd2y = -2.75;
+//--- antikenoma ---
+var antdx = 0.5;
+var antdy = -1.5;
+var antd2x = 0.5;
+var antd2y = -2.5;
+//--- heteron ---
+var hetdx = -0.75;
+var hetdy = -1.25;
+var hetd2x = 1.75;
+var hetd2y = -1.55;
+//--- endophonon ---
+var enddx = 0.25;
+var enddy = -1.75;
+var endd2x = -1.15;
+var endd2y = -2;
+//--- gorgon ---
+var gorw = 0.35;
+var gordy = -2;
+var goru2y = 3;
+
 glyphs_data.push(
     {
         "name": ".notdef",
@@ -82,7 +181,7 @@ glyphs_data.push(
     {
         "name": "ison",
         "unicode": uniStart++,
-        "advanceWidth": 7.25,
+        "advanceWidth": iw,
         "components": [
             // ison
             ['ison', 0, 0]
@@ -100,7 +199,7 @@ glyphs_data.push(
     {
         "name": "oligon",
         "unicode": uniStart++,
-        "advanceWidth": 8,
+        "advanceWidth": ow,
         "components": [
             // oligon
             ['oligon', 0, 0]
@@ -109,7 +208,7 @@ glyphs_data.push(
     {
         "name": "oligon.long",
         "unicode": uniStart++,
-        "advanceWidth": 9,
+        "advanceWidth": olw,
         "components": [
             // oligon-long
             ['oligon-long', 0, 0]
@@ -118,7 +217,7 @@ glyphs_data.push(
     {
         "name": "petaste",
         "unicode": uniStart++,
-        "advanceWidth": 7.5,
+        "advanceWidth": pw,
         "components": [
             // petaste
             ['petaste', 0, 0]
@@ -127,7 +226,7 @@ glyphs_data.push(
     {
         "name": "kentemata",
         "unicode": uniStart++,
-        "advanceWidth": 2.8,
+        "advanceWidth": kw,
         "components": [
             // kentemata
             ['kentemata', 0, 0]
@@ -136,7 +235,7 @@ glyphs_data.push(
     {
         "name": "kentema",
         "unicode": uniStart++,
-        "advanceWidth": 1.4,
+        "advanceWidth": Kw,
         "components": [
             // kentema
             ['kentema', 0, 0]
@@ -154,7 +253,7 @@ glyphs_data.push(
     {
         "name": "apostrophos",
         "unicode": uniStart++,
-        "advanceWidth": 3.25,
+        "advanceWidth": aw,
         "components": [
             // apostrophos
             ['apostrophos', 0, 0]
@@ -163,7 +262,7 @@ glyphs_data.push(
     {
         "name": "hyporrhoe",
         "unicode": uniStart++,
-        "advanceWidth": 1.8,
+        "advanceWidth": hpw,
         "components": [
             // hyporrhoe
             ['hyporrhoe', 0, 0]
@@ -172,7 +271,7 @@ glyphs_data.push(
     {
         "name": "elaphron",
         "unicode": uniStart++,
-        "advanceWidth": 7.5,
+        "advanceWidth": ew,
         "components": [
             // elaphron
             ['elaphron', 0, 0]
@@ -190,7 +289,7 @@ glyphs_data.push(
     {
         "name": "chamele",
         "unicode": uniStart++,
-        "advanceWidth": 6.5,
+        "advanceWidth": chaw,
         "components": [
             // chamele
             ['chamele', 0, 0]
@@ -253,7 +352,7 @@ glyphs_data.push(
     {
         "name": "bareia",
         "unicode": uniStart++,
-        "advanceWidth": 2.5,
+        "advanceWidth": baw,
         "components": [
             // bareia
             ['bareia', 0, 0]
