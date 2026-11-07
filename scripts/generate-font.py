@@ -1,6 +1,5 @@
 import argparse
 import fontforge
-from pathlib import Path
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate font")
