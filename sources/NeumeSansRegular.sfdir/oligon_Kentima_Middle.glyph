@@ -1,0 +1,24 @@
+StartChar: oligonKentimaMiddle
+Encoding: 57346 57346 156
+Width: 940
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1
+ 770 0 l 1
+ 820 -30 800 70 725 80 c 1
+ 30 80 l 1
+ -20 110 0 10 75 0 c 1
+810 90 m 1
+ 840 0 l 2
+ 850 -20 850 -20 875 -20 c 2
+ 920 -20 l 2
+ 930 -20 960 -20 930 0 c 1
+ 900 90 l 2
+ 890 110 890 110 865 110 c 2
+ 820 110 l 2
+ 810 110 780 110 810 90 c 1
+EndSplineSet
+EndChar

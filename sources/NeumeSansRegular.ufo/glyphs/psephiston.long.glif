@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="psephiston.long" format="2">
+  <advance width="800"/>
+  <unicode hex="0036"/>
+  <outline>
+    <contour>
+      <point x="0" y="130" type="curve"/>
+      <point x="350" y="-100"/>
+      <point x="675" y="-50"/>
+      <point x="800" y="130" type="curve"/>
+      <point x="775" y="140"/>
+      <point x="675" y="140"/>
+      <point x="650" y="130" type="curve" smooth="yes"/>
+      <point x="525" y="100"/>
+      <point x="475" y="-100"/>
+      <point x="100" y="130" type="curve" smooth="yes"/>
+      <point x="75" y="150"/>
+      <point x="25" y="150"/>
+    </contour>
+  </outline>
+</glyph>

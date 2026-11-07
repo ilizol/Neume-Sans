@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="petaste_klasmaD" format="2">
+  <advance width="750"/>
+  <outline>
+    <contour>
+      <point x="0" y="130" type="qcurve"/>
+      <point x="282" y="-30"/>
+      <point x="503" y="-64" type="qcurve" smooth="yes"/>
+      <point x="686" y="-92"/>
+      <point x="734" y="-15" type="qcurve" smooth="yes"/>
+      <point x="767" y="37"/>
+      <point x="725" y="130" type="qcurve"/>
+      <point x="706" y="138"/>
+      <point x="619" y="138"/>
+      <point x="600" y="130" type="qcurve"/>
+      <point x="667" y="72"/>
+      <point x="608" y="46" type="qcurve" smooth="yes"/>
+      <point x="546" y="19"/>
+      <point x="411" y="43" type="qcurve" smooth="yes"/>
+      <point x="271" y="67"/>
+      <point x="175" y="130" type="qcurve"/>
+      <point x="138" y="145"/>
+      <point x="19" y="145"/>
+    </contour>
+    <contour>
+      <point x="385" y="-125" type="qcurve" smooth="yes"/>
+      <point x="377" y="-121"/>
+      <point x="384" y="-104"/>
+      <point x="395" y="-100" type="qcurve"/>
+      <point x="465" y="-144"/>
+      <point x="529" y="-148" type="qcurve" smooth="yes"/>
+      <point x="580" y="-151"/>
+      <point x="578" y="-119" type="qcurve" smooth="yes"/>
+      <point x="578" y="-113"/>
+      <point x="575" y="-105" type="qcurve"/>
+      <point x="615" y="-93"/>
+      <point x="647" y="-128" type="qcurve" smooth="yes"/>
+      <point x="675" y="-159"/>
+      <point x="662" y="-183" type="qcurve" smooth="yes"/>
+      <point x="640" y="-224"/>
+      <point x="521" y="-184" type="qcurve" smooth="yes"/>
+      <point x="462" y="-165"/>
+    </contour>
+  </outline>
+</glyph>

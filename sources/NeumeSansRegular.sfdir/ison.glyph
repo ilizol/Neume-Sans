@@ -1,0 +1,16 @@
+StartChar: ison
+Encoding: 57344 57344 154
+Width: 725
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+550 0 m 1
+ 680 0 l 1
+ 750 -30 725 30 675 60 c 0
+ 600 100 300 40 150 80 c 1
+ 0 150 250 150 100 200 c 1
+ -75 250 -75 -25 550 0 c 1
+EndSplineSet
+EndChar

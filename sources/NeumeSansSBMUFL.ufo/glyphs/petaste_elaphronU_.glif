@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="petaste_elaphronU" format="2">
+  <advance width="750"/>
+  <outline>
+    <contour>
+      <point x="0" y="130" type="qcurve"/>
+      <point x="282" y="-30"/>
+      <point x="503" y="-64" type="qcurve" smooth="yes"/>
+      <point x="686" y="-92"/>
+      <point x="734" y="-15" type="qcurve" smooth="yes"/>
+      <point x="767" y="37"/>
+      <point x="725" y="130" type="qcurve"/>
+      <point x="706" y="138"/>
+      <point x="619" y="138"/>
+      <point x="600" y="130" type="qcurve"/>
+      <point x="667" y="72"/>
+      <point x="608" y="46" type="qcurve" smooth="yes"/>
+      <point x="546" y="19"/>
+      <point x="411" y="43" type="qcurve" smooth="yes"/>
+      <point x="271" y="67"/>
+      <point x="175" y="130" type="qcurve"/>
+      <point x="138" y="145"/>
+      <point x="19" y="145"/>
+    </contour>
+    <contour>
+      <point x="25" y="205" type="qcurve"/>
+      <point x="88" y="192"/>
+      <point x="150" y="205" type="qcurve"/>
+      <point x="113" y="269"/>
+      <point x="165" y="302" type="qcurve" smooth="yes"/>
+      <point x="225" y="341"/>
+      <point x="352" y="308" type="qcurve" smooth="yes"/>
+      <point x="461" y="280"/>
+      <point x="575" y="205" type="qcurve"/>
+      <point x="610" y="191"/>
+      <point x="715" y="187"/>
+      <point x="750" y="195" type="qcurve"/>
+      <point x="525" y="344"/>
+      <point x="304" y="390" type="qcurve" smooth="yes"/>
+      <point x="118" y="429"/>
+      <point x="42" y="370" type="qcurve" smooth="yes"/>
+      <point x="-26" y="318"/>
+    </contour>
+  </outline>
+</glyph>

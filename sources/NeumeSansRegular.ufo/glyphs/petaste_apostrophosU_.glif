@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="petaste_apostrophosU" format="2">
+  <advance width="750"/>
+  <unicode hex="0074"/>
+  <outline>
+    <contour>
+      <point x="0" y="130" type="curve"/>
+      <point x="450" y="-125"/>
+      <point x="850" y="-150"/>
+      <point x="725" y="130" type="curve"/>
+      <point x="700" y="140"/>
+      <point x="625" y="140"/>
+      <point x="600" y="130" type="curve"/>
+      <point x="750" y="0"/>
+      <point x="375" y="0"/>
+      <point x="175" y="130" type="curve"/>
+      <point x="125" y="150"/>
+      <point x="25" y="150"/>
+    </contour>
+    <contour>
+      <point x="350" y="200" type="curve"/>
+      <point x="375" y="185"/>
+      <point x="425" y="185"/>
+      <point x="450" y="190" type="curve"/>
+      <point x="565" y="280"/>
+      <point x="475" y="285"/>
+      <point x="215" y="340" type="curve" smooth="yes"/>
+      <point x="205" y="340"/>
+      <point x="185" y="340"/>
+      <point x="175" y="310" type="curve"/>
+      <point x="385" y="250"/>
+      <point x="425" y="275"/>
+    </contour>
+  </outline>
+</glyph>

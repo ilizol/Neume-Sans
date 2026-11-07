@@ -1,0 +1,26 @@
+StartChar: ison_homalonD
+Encoding: 95 95 68
+Width: 725
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+550 0 m 1
+ 680 0 l 1
+ 750 -30 725 30 675 60 c 0
+ 600 100 300 40 150 80 c 1
+ 0 150 250 150 100 200 c 1
+ -75 250 -75 -25 550 0 c 1
+25 -200 m 1
+ 725 -200 l 1
+ 725 -160 l 1
+ 75 -160 l 2
+ 50 -160 25 -175 25 -200 c 1
+725 -100 m 1
+ 625 -285 l 1
+ 650 -300 700 -300 725 -285 c 1
+ 825 -100 l 1
+ 800 -85 750 -85 725 -100 c 1
+EndSplineSet
+EndChar

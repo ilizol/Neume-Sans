@@ -1,0 +1,24 @@
+StartChar: oligon.a3
+Encoding: 152 152 125
+Width: 800
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1
+ 770 0 l 1
+ 820 -30 800 70 725 80 c 1
+ 30 80 l 1
+ -20 110 0 10 75 0 c 1
+335 240 m 1
+ 365 150 l 2
+ 375 130 375 130 400 130 c 2
+ 445 130 l 2
+ 455 130 485 130 455 150 c 1
+ 425 240 l 2
+ 415 260 415 260 390 260 c 2
+ 345 260 l 2
+ 335 260 305 260 335 240 c 1
+EndSplineSet
+EndChar

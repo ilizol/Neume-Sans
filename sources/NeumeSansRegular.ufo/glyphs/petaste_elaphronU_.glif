@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="petaste_elaphronU" format="2">
+  <advance width="750"/>
+  <unicode hex="007A"/>
+  <outline>
+    <contour>
+      <point x="0" y="130" type="curve"/>
+      <point x="450" y="-125"/>
+      <point x="850" y="-150"/>
+      <point x="725" y="130" type="curve"/>
+      <point x="700" y="140"/>
+      <point x="625" y="140"/>
+      <point x="600" y="130" type="curve"/>
+      <point x="750" y="0"/>
+      <point x="375" y="0"/>
+      <point x="175" y="130" type="curve"/>
+      <point x="125" y="150"/>
+      <point x="25" y="150"/>
+    </contour>
+    <contour>
+      <point x="25" y="205" type="curve"/>
+      <point x="75" y="195"/>
+      <point x="100" y="195"/>
+      <point x="150" y="205" type="curve"/>
+      <point x="75" y="335"/>
+      <point x="300" y="385"/>
+      <point x="575" y="205" type="curve"/>
+      <point x="625" y="185"/>
+      <point x="700" y="185"/>
+      <point x="750" y="195" type="curve"/>
+      <point x="350" y="460"/>
+      <point x="-100" y="485"/>
+    </contour>
+  </outline>
+</glyph>

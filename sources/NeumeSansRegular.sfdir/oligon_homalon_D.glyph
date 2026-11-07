@@ -1,0 +1,25 @@
+StartChar: oligon_homalonD
+Encoding: 96 96 69
+Width: 800
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1
+ 770 0 l 1
+ 820 -30 800 70 725 80 c 1
+ 30 80 l 1
+ -20 110 0 10 75 0 c 1
+25 -200 m 1
+ 725 -200 l 1
+ 725 -160 l 1
+ 75 -160 l 2
+ 50 -160 25 -175 25 -200 c 1
+725 -100 m 1
+ 625 -285 l 1
+ 650 -300 700 -300 725 -285 c 1
+ 825 -100 l 1
+ 800 -85 750 -85 725 -100 c 1
+EndSplineSet
+EndChar

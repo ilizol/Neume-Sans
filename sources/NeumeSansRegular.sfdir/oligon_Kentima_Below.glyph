@@ -1,0 +1,24 @@
+StartChar: oligonKentimaBelow
+Encoding: 57347 57347 157
+Width: 800
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1
+ 770 0 l 1
+ 820 -30 800 70 725 80 c 1
+ 30 80 l 1
+ -20 110 0 10 75 0 c 1
+535 -60 m 1
+ 565 -150 l 2
+ 575 -170 575 -170 600 -170 c 2
+ 645 -170 l 2
+ 655 -170 685 -170 655 -150 c 1
+ 625 -60 l 2
+ 615 -40 615 -40 590 -40 c 2
+ 545 -40 l 2
+ 535 -40 505 -40 535 -60 c 1
+EndSplineSet
+EndChar

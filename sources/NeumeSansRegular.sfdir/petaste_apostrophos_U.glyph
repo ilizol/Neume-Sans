@@ -1,0 +1,20 @@
+StartChar: petaste_apostrophosU
+Encoding: 116 116 89
+Width: 750
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 130 m 1
+ 450 -125 850 -150 725 130 c 1
+ 700 140 625 140 600 130 c 1
+ 750 0 375 0 175 130 c 1
+ 125 150 25 150 0 130 c 1
+350 200 m 1
+ 375 185 425 185 450 190 c 1
+ 565 280 475 285 215 340 c 0
+ 205 340 185 340 175 310 c 1
+ 385 250 425 275 350 200 c 1
+EndSplineSet
+EndChar

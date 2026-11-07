@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="elafron" format="2">
+  <advance width="750"/>
+  <unicode hex="E024"/>
+  <outline>
+    <component base="elaphron"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oligonKentimaBelow" format="2">
+  <advance width="800"/>
+  <unicode hex="E003"/>
+  <outline>
+    <component base="kentema" xOffset="525" yOffset="-150"/>
+    <component base="oligon"/>
+  </outline>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oligon_homalonD" format="2">
+  <advance width="800"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="75" y="0" type="curve"/>
+      <point x="770" y="0" type="line"/>
+      <point x="820" y="-30"/>
+      <point x="800" y="70"/>
+      <point x="725" y="80" type="curve"/>
+      <point x="30" y="80" type="line"/>
+      <point x="-20" y="110"/>
+      <point x="0" y="10"/>
+    </contour>
+    <contour>
+      <point x="25" y="-200" type="curve"/>
+      <point x="725" y="-200" type="line"/>
+      <point x="725" y="-160" type="line"/>
+      <point x="75" y="-160" type="line" smooth="yes"/>
+      <point x="50" y="-160"/>
+      <point x="25" y="-175"/>
+    </contour>
+    <contour>
+      <point x="725" y="-100" type="curve"/>
+      <point x="625" y="-285" type="line"/>
+      <point x="650" y="-300"/>
+      <point x="700" y="-300"/>
+      <point x="725" y="-285" type="curve"/>
+      <point x="825" y="-100" type="line"/>
+      <point x="800" y="-85"/>
+      <point x="750" y="-85"/>
+    </contour>
+  </outline>
+</glyph>

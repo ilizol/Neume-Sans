@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ison_klasmaU" format="2">
+  <advance width="725"/>
+  <outline>
+    <contour>
+      <point x="550" y="0" type="qcurve"/>
+      <point x="680" y="0" type="line"/>
+      <point x="724" y="-19"/>
+      <point x="723" y="3" type="qcurve" smooth="yes"/>
+      <point x="722" y="25"/>
+      <point x="687" y="52" type="qcurve" smooth="yes"/>
+      <point x="681" y="56"/>
+      <point x="675" y="60" type="qcurve" smooth="yes"/>
+      <point x="644" y="77"/>
+      <point x="434" y="72"/>
+      <point x="238" y="60"/>
+      <point x="150" y="80" type="qcurve"/>
+      <point x="115" y="96"/>
+      <point x="94" y="123"/>
+      <point x="113" y="139"/>
+      <point x="137" y="156"/>
+      <point x="156" y="169"/>
+      <point x="135" y="188"/>
+      <point x="100" y="200" type="qcurve" smooth="yes"/>
+      <point x="36" y="218"/>
+      <point x="9" y="187" type="qcurve" smooth="yes"/>
+      <point x="-16" y="158"/>
+      <point x="20" y="115" type="qcurve" smooth="yes"/>
+      <point x="82" y="41"/>
+      <point x="270" y="12" type="qcurve" smooth="yes"/>
+      <point x="392" y="-6"/>
+    </contour>
+    <contour>
+      <point x="260" y="225" type="qcurve" smooth="yes"/>
+      <point x="252" y="229"/>
+      <point x="259" y="246"/>
+      <point x="270" y="250" type="qcurve"/>
+      <point x="340" y="206"/>
+      <point x="404" y="202" type="qcurve" smooth="yes"/>
+      <point x="455" y="199"/>
+      <point x="453" y="231" type="qcurve" smooth="yes"/>
+      <point x="453" y="237"/>
+      <point x="450" y="245" type="qcurve"/>
+      <point x="490" y="257"/>
+      <point x="522" y="222" type="qcurve" smooth="yes"/>
+      <point x="550" y="191"/>
+      <point x="537" y="167" type="qcurve" smooth="yes"/>
+      <point x="515" y="126"/>
+      <point x="396" y="166" type="qcurve" smooth="yes"/>
+      <point x="337" y="185"/>
+    </contour>
+  </outline>
+</glyph>

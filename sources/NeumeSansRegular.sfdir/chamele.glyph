@@ -1,0 +1,22 @@
+StartChar: chamele
+Encoding: 45 45 18
+Width: 650
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 200 m 1
+ 50 210 100 210 150 200 c 1
+ 175 50 300 75 400 75 c 2
+ 600 75 l 2
+ 625 75 675 -25 625 0 c 1
+ 200 0 l 2
+ 125 0 125 0 0 200 c 1
+475 -50 m 1
+ 400 125 l 1
+ 450 130 425 130 475 125 c 1
+ 550 -50 l 1
+ 525 -55 500 -55 475 -50 c 1
+EndSplineSet
+EndChar

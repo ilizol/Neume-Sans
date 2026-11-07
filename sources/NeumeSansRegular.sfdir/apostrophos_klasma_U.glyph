@@ -1,0 +1,19 @@
+StartChar: apostrophos_klasmaU
+Encoding: 70 70 43
+Width: 325
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+175 0 m 1
+ 200 -15 250 -15 275 -10 c 1
+ 390 80 300 85 40 140 c 0
+ 30 140 10 140 0 110 c 1
+ 210 50 250 75 175 0 c 1
+35 225 m 0
+ 25 230 30 245 45 250 c 1
+ 125 200 250 175 225 245 c 1
+ 325 275 425 25 35 225 c 0
+EndSplineSet
+EndChar

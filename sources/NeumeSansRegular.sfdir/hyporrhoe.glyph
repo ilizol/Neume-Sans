@@ -1,0 +1,19 @@
+StartChar: hyporrhoe
+Encoding: 42 42 15
+Width: 180
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 -20 m 1
+ 70 80 l 2
+ 80 100 80 100 105 100 c 2
+ 160 100 l 2
+ 170 100 200 100 170 80 c 1
+ 110 -20 l 2
+ 100 -40 100 -40 75 -40 c 2
+ 20 -40 l 2
+ 10 -40 -20 -40 10 -20 c 1
+EndSplineSet
+EndChar

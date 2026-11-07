@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ring" format="2">
+  <advance width="200"/>
+  <outline>
+    <contour>
+      <point x="53" y="150"/>
+      <point x="14" y="75"/>
+      <point x="53" y="0"/>
+      <point x="147" y="0"/>
+      <point x="186" y="75"/>
+      <point x="147" y="150"/>
+    </contour>
+    <contour>
+      <point x="131" y="125"/>
+      <point x="156" y="75"/>
+      <point x="131" y="25"/>
+      <point x="69" y="25"/>
+      <point x="44" y="75"/>
+      <point x="69" y="125"/>
+    </contour>
+  </outline>
+</glyph>

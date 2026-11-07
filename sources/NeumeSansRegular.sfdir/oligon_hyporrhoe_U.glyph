@@ -1,0 +1,24 @@
+StartChar: oligon_hyporrhoeU
+Encoding: 117 117 90
+Width: 800
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1
+ 770 0 l 1
+ 820 -30 800 70 725 80 c 1
+ 30 80 l 1
+ -20 110 0 10 75 0 c 1
+320 150 m 1
+ 380 250 l 2
+ 390 270 390 270 415 270 c 2
+ 470 270 l 2
+ 480 270 510 270 480 250 c 1
+ 420 150 l 2
+ 410 130 410 130 385 130 c 2
+ 330 130 l 2
+ 320 130 290 130 320 150 c 1
+EndSplineSet
+EndChar

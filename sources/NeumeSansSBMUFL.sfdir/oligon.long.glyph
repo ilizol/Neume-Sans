@@ -1,0 +1,19 @@
+StartChar: oligon.long
+Encoding: 65547 -1 11
+Width: 900
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1,0,-1
+ 870 0 l 1,1,2
+ 895 -15 895 -15 897 6 c 0,3,4
+ 901 30 901 30 874 56 c 0,5,6
+ 854 76 854 76 825 80 c 1,7,-1
+ 30 80 l 1,8,9
+ 5 95 5 95 3 74 c 0,10,11
+ -1 50 -1 50 26 24 c 0,12,13
+ 46 4 46 4 75 0 c 1,0,-1
+EndSplineSet
+EndChar

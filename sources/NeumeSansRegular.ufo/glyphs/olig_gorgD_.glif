@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="olig_gorgD" format="2">
+  <advance width="800"/>
+  <unicode hex="006B"/>
+  <outline>
+    <contour>
+      <point x="75" y="0" type="curve"/>
+      <point x="770" y="0" type="line"/>
+      <point x="820" y="-30"/>
+      <point x="800" y="70"/>
+      <point x="725" y="80" type="curve"/>
+      <point x="30" y="80" type="line"/>
+      <point x="-20" y="110"/>
+      <point x="0" y="10"/>
+    </contour>
+    <contour>
+      <point x="365" y="-200" type="line"/>
+      <point x="400" y="-200" type="line"/>
+      <point x="400" y="-110" type="line"/>
+      <point x="515" y="-110" type="line"/>
+      <point x="515" y="-75" type="line"/>
+      <point x="365" y="-75" type="line"/>
+    </contour>
+  </outline>
+</glyph>

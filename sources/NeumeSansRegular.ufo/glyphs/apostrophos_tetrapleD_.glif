@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="apostrophos_tetrapleD" format="2">
+  <advance width="325"/>
+  <unicode hex="0051"/>
+  <outline>
+    <contour>
+      <point x="175" y="0" type="curve"/>
+      <point x="200" y="-15"/>
+      <point x="250" y="-15"/>
+      <point x="275" y="-10" type="curve"/>
+      <point x="390" y="80"/>
+      <point x="300" y="85"/>
+      <point x="40" y="140" type="curve" smooth="yes"/>
+      <point x="30" y="140"/>
+      <point x="10" y="140"/>
+      <point x="0" y="110" type="curve"/>
+      <point x="210" y="50"/>
+      <point x="250" y="75"/>
+    </contour>
+    <contour>
+      <point x="70" y="-80" type="curve"/>
+      <point x="75" y="-70" type="line" smooth="yes"/>
+      <point x="85" y="-50"/>
+      <point x="85" y="-50"/>
+      <point x="105" y="-50" type="curve" smooth="yes"/>
+      <point x="135" y="-50" type="line" smooth="yes"/>
+      <point x="145" y="-50"/>
+      <point x="165" y="-50"/>
+      <point x="150" y="-70" type="curve"/>
+      <point x="145" y="-80" type="line" smooth="yes"/>
+      <point x="135" y="-100"/>
+      <point x="135" y="-100"/>
+      <point x="115" y="-100" type="curve" smooth="yes"/>
+      <point x="85" y="-100" type="line" smooth="yes"/>
+      <point x="75" y="-100"/>
+      <point x="55" y="-100"/>
+    </contour>
+    <contour>
+      <point x="170" y="-80" type="curve"/>
+      <point x="175" y="-70" type="line" smooth="yes"/>
+      <point x="185" y="-50"/>
+      <point x="185" y="-50"/>
+      <point x="205" y="-50" type="curve" smooth="yes"/>
+      <point x="235" y="-50" type="line" smooth="yes"/>
+      <point x="245" y="-50"/>
+      <point x="265" y="-50"/>
+      <point x="250" y="-70" type="curve"/>
+      <point x="245" y="-80" type="line" smooth="yes"/>
+      <point x="235" y="-100"/>
+      <point x="235" y="-100"/>
+      <point x="215" y="-100" type="curve" smooth="yes"/>
+      <point x="185" y="-100" type="line" smooth="yes"/>
+      <point x="175" y="-100"/>
+      <point x="155" y="-100"/>
+    </contour>
+    <contour>
+      <point x="270" y="-80" type="curve"/>
+      <point x="275" y="-70" type="line" smooth="yes"/>
+      <point x="285" y="-50"/>
+      <point x="285" y="-50"/>
+      <point x="305" y="-50" type="curve" smooth="yes"/>
+      <point x="335" y="-50" type="line" smooth="yes"/>
+      <point x="345" y="-50"/>
+      <point x="365" y="-50"/>
+      <point x="350" y="-70" type="curve"/>
+      <point x="345" y="-80" type="line" smooth="yes"/>
+      <point x="335" y="-100"/>
+      <point x="335" y="-100"/>
+      <point x="315" y="-100" type="curve" smooth="yes"/>
+      <point x="285" y="-100" type="line" smooth="yes"/>
+      <point x="275" y="-100"/>
+      <point x="255" y="-100"/>
+    </contour>
+    <contour>
+      <point x="370" y="-80" type="curve"/>
+      <point x="375" y="-70" type="line" smooth="yes"/>
+      <point x="385" y="-50"/>
+      <point x="385" y="-50"/>
+      <point x="405" y="-50" type="curve" smooth="yes"/>
+      <point x="435" y="-50" type="line" smooth="yes"/>
+      <point x="445" y="-50"/>
+      <point x="465" y="-50"/>
+      <point x="450" y="-70" type="curve"/>
+      <point x="445" y="-80" type="line" smooth="yes"/>
+      <point x="435" y="-100"/>
+      <point x="435" y="-100"/>
+      <point x="415" y="-100" type="curve" smooth="yes"/>
+      <point x="385" y="-100" type="line" smooth="yes"/>
+      <point x="375" y="-100"/>
+      <point x="355" y="-100"/>
+    </contour>
+  </outline>
+</glyph>

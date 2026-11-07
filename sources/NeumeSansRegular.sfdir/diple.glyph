@@ -1,0 +1,28 @@
+StartChar: diple
+Encoding: 49 49 22
+Width: 200
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+5 20 m 1
+ 10 30 l 2
+ 20 50 20 50 40 50 c 2
+ 70 50 l 2
+ 80 50 100 50 85 30 c 1
+ 80 20 l 2
+ 70 0 70 0 50 0 c 2
+ 20 0 l 2
+ 10 0 -10 0 5 20 c 1
+105 20 m 1
+ 110 30 l 2
+ 120 50 120 50 140 50 c 2
+ 170 50 l 2
+ 180 50 200 50 185 30 c 1
+ 180 20 l 2
+ 170 0 170 0 150 0 c 2
+ 120 0 l 2
+ 110 0 90 0 105 20 c 1
+EndSplineSet
+EndChar

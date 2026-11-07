@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bareia_oligon" format="2">
+  <advance width="1050"/>
+  <outline>
+    <contour>
+      <point x="0" y="200" type="qcurve"/>
+      <point x="83" y="217"/>
+      <point x="125" y="200" type="qcurve"/>
+      <point x="145" y="100"/>
+      <point x="196" y="-23"/>
+      <point x="291" y="-118"/>
+      <point x="437" y="-166"/>
+      <point x="550" y="-175" type="qcurve" smooth="yes"/>
+      <point x="562" y="-177"/>
+      <point x="571" y="-187"/>
+      <point x="562" y="-198"/>
+      <point x="550" y="-200" type="qcurve" smooth="yes"/>
+      <point x="480" y="-200"/>
+      <point x="412" y="-198"/>
+      <point x="298" y="-183"/>
+      <point x="236" y="-154"/>
+      <point x="148" y="-97"/>
+      <point x="90" y="-12"/>
+      <point x="26" y="116"/>
+    </contour>
+    <contour>
+      <point x="325" y="0" type="qcurve"/>
+      <point x="1020" y="0" type="line"/>
+      <point x="1045" y="-15"/>
+      <point x="1047" y="6" type="qcurve" smooth="yes"/>
+      <point x="1051" y="30"/>
+      <point x="1024" y="56" type="qcurve" smooth="yes"/>
+      <point x="1004" y="76"/>
+      <point x="975" y="80" type="qcurve"/>
+      <point x="280" y="80" type="line"/>
+      <point x="255" y="95"/>
+      <point x="253" y="74" type="qcurve" smooth="yes"/>
+      <point x="249" y="50"/>
+      <point x="276" y="24" type="qcurve" smooth="yes"/>
+      <point x="296" y="4"/>
+    </contour>
+  </outline>
+</glyph>

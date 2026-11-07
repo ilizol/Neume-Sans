@@ -1,0 +1,20 @@
+StartChar: petaste_elaphronU
+Encoding: 122 122 95
+Width: 750
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 130 m 1
+ 450 -125 850 -150 725 130 c 1
+ 700 140 625 140 600 130 c 1
+ 750 0 375 0 175 130 c 1
+ 125 150 25 150 0 130 c 1
+25 205 m 1
+ 75 195 100 195 150 205 c 1
+ 75 335 300 385 575 205 c 1
+ 625 185 700 185 750 195 c 1
+ 350 460 -100 485 25 205 c 1
+EndSplineSet
+EndChar

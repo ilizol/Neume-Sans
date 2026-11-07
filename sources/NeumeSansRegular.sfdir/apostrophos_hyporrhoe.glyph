@@ -1,0 +1,24 @@
+StartChar: apostrophos_hyporrhoe
+Encoding: 111 111 84
+Width: 505
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+175 0 m 1
+ 200 -15 250 -15 275 -10 c 1
+ 390 80 300 85 40 140 c 0
+ 30 140 10 140 0 110 c 1
+ 210 50 250 75 175 0 c 1
+335 -20 m 1
+ 395 80 l 2
+ 405 100 405 100 430 100 c 2
+ 485 100 l 2
+ 495 100 525 100 495 80 c 1
+ 435 -20 l 2
+ 425 -40 425 -40 400 -40 c 2
+ 345 -40 l 2
+ 335 -40 305 -40 335 -20 c 1
+EndSplineSet
+EndChar

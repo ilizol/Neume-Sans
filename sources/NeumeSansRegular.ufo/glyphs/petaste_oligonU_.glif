@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="petaste_oligonU" format="2">
+  <advance width="750"/>
+  <unicode hex="0096"/>
+  <outline>
+    <contour>
+      <point x="0" y="130" type="curve"/>
+      <point x="450" y="-125"/>
+      <point x="850" y="-150"/>
+      <point x="725" y="130" type="curve"/>
+      <point x="700" y="140"/>
+      <point x="625" y="140"/>
+      <point x="600" y="130" type="curve"/>
+      <point x="750" y="0"/>
+      <point x="375" y="0"/>
+      <point x="175" y="130" type="curve"/>
+      <point x="125" y="150"/>
+      <point x="25" y="150"/>
+    </contour>
+    <contour>
+      <point x="25" y="200" type="curve"/>
+      <point x="720" y="200" type="line"/>
+      <point x="770" y="170"/>
+      <point x="750" y="270"/>
+      <point x="675" y="280" type="curve"/>
+      <point x="-20" y="280" type="line"/>
+      <point x="-70" y="310"/>
+      <point x="-50" y="210"/>
+    </contour>
+  </outline>
+</glyph>

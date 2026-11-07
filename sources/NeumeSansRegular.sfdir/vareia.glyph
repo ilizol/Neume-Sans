@@ -1,0 +1,15 @@
+StartChar: vareia
+Encoding: 57504 57504 167
+Width: 250
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 200 m 1
+ 50 210 100 210 125 200 c 1
+ 175 -50 250 -150 550 -175 c 0
+ 575 -180 575 -195 550 -200 c 1
+ 300 -200 125 -200 0 200 c 1
+EndSplineSet
+EndChar

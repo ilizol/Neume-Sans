@@ -1,0 +1,16 @@
+StartChar: ring
+Encoding: 63 63 36
+Width: 200
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 150 m 0
+ 0 150 0 0 100 0 c 0
+ 200 0 200 150 100 150 c 0
+100 125 m 0
+ 165 125 165 25 100 25 c 0
+ 35 25 35 125 100 125 c 0
+EndSplineSet
+EndChar

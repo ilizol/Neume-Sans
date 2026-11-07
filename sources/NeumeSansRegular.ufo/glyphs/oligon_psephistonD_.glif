@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oligon_psephistonD" format="2">
+  <advance width="800"/>
+  <unicode hex="005C"/>
+  <outline>
+    <contour>
+      <point x="75" y="0" type="curve"/>
+      <point x="770" y="0" type="line"/>
+      <point x="820" y="-30"/>
+      <point x="800" y="70"/>
+      <point x="725" y="80" type="curve"/>
+      <point x="30" y="80" type="line"/>
+      <point x="-20" y="110"/>
+      <point x="0" y="10"/>
+    </contour>
+    <contour>
+      <point x="25" y="-70" type="curve"/>
+      <point x="375" y="-300"/>
+      <point x="700" y="-250"/>
+      <point x="825" y="-70" type="curve"/>
+      <point x="800" y="-60"/>
+      <point x="700" y="-60"/>
+      <point x="675" y="-70" type="curve" smooth="yes"/>
+      <point x="550" y="-100"/>
+      <point x="500" y="-300"/>
+      <point x="125" y="-70" type="curve" smooth="yes"/>
+      <point x="100" y="-50"/>
+      <point x="50" y="-50"/>
+    </contour>
+  </outline>
+</glyph>

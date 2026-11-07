@@ -1,0 +1,21 @@
+StartChar: bareia_ison
+Encoding: 82 82 55
+Width: 975
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 200 m 1
+ 50 210 100 210 125 200 c 1
+ 175 -50 250 -150 550 -175 c 0
+ 575 -180 575 -195 550 -200 c 1
+ 300 -200 125 -200 0 200 c 1
+800 0 m 1
+ 930 0 l 1
+ 1000 -30 975 30 925 60 c 0
+ 850 100 550 40 400 80 c 1
+ 250 150 500 150 350 200 c 1
+ 175 250 175 -25 800 0 c 1
+EndSplineSet
+EndChar

@@ -1,0 +1,19 @@
+StartChar: elaphron_klasmaU
+Encoding: 71 71 44
+Width: 750
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+25 -30 m 1
+ 75 -40 100 -40 150 -30 c 1
+ 75 100 300 150 575 -30 c 1
+ 625 -50 700 -50 750 -40 c 1
+ 350 225 -100 250 25 -30 c 1
+285 225 m 0
+ 275 230 280 245 295 250 c 1
+ 375 200 500 175 475 245 c 1
+ 575 275 675 25 285 225 c 0
+EndSplineSet
+EndChar

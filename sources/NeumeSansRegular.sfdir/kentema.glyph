@@ -1,0 +1,19 @@
+StartChar: kentema
+Encoding: 39 39 12
+Width: 140
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 90 m 1
+ 40 0 l 2
+ 50 -20 50 -20 75 -20 c 2
+ 120 -20 l 2
+ 130 -20 160 -20 130 0 c 1
+ 100 90 l 2
+ 90 110 90 110 65 110 c 2
+ 20 110 l 2
+ 10 110 -20 110 10 90 c 1
+EndSplineSet
+EndChar
