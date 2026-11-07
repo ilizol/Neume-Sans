@@ -79,6 +79,18 @@ def main():
     font.fontname = "NeumeSansSBMUFL-Regular"
     font.familyname = "Neume Sans SBMUFL"
     font.fullname = "Neume Sans SBMUFL Regular"
+    font.sfnt_names = tuple(
+        (
+            language,
+            name_id,
+            " :Neume Sans SBMUFL Regular"
+            if name_id == "UniqueID"
+            else "Neume Sans SBMUFL"
+            if name_id == "Preferred Family"
+            else value,
+        )
+        for language, name_id, value in font.sfnt_names
+    )
     font.generate(str(args.outfile))
     font.close()
 

@@ -7,7 +7,7 @@
     <key>styleName</key>
     <string>Regular</string>
     <key>styleMapFamilyName</key>
-    <string>Neume Sans Regular</string>
+    <string>Neume Sans SBMUFL Regular</string>
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>versionMajor</key>
@@ -53,11 +53,11 @@
     <key>openTypeNameVersion</key>
     <string>Version 0.1</string>
     <key>openTypeNameUniqueID</key>
-    <string> :Neume Sans Regular</string>
+    <string> :Neume Sans SBMUFL Regular</string>
     <key>openTypeNameDescription</key>
     <string> </string>
     <key>openTypeNamePreferredFamilyName</key>
-    <string>Neume Sans</string>
+    <string>Neume Sans SBMUFL</string>
     <key>openTypeNamePreferredSubfamilyName</key>
     <string>Regular</string>
     <key>openTypeOS2Panose</key>
