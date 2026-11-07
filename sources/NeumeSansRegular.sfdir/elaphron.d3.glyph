@@ -1,0 +1,20 @@
+StartChar: elaphron.d3
+Encoding: 123 123 96
+Width: 750
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+25 -30 m 1
+ 75 -40 100 -40 150 -30 c 1
+ 75 100 300 150 575 -30 c 1
+ 625 -50 700 -50 750 -40 c 1
+ 350 225 -100 250 25 -30 c 1
+350 -100 m 1
+ 375 -115 425 -115 450 -110 c 1
+ 565 -20 475 -15 215 40 c 0
+ 205 40 185 40 175 10 c 1
+ 385 -50 425 -25 350 -100 c 1
+EndSplineSet
+EndChar

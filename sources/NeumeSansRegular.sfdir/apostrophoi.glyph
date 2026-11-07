@@ -1,0 +1,20 @@
+StartChar: apostrophoi
+Encoding: 110 110 83
+Width: 575
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+175 25 m 1
+ 200 10 250 10 275 15 c 1
+ 390 105 300 110 40 165 c 0
+ 30 165 10 165 0 135 c 1
+ 210 75 250 100 175 25 c 1
+425 -175 m 1
+ 450 -190 500 -190 525 -185 c 1
+ 640 -95 550 -90 290 -35 c 0
+ 280 -35 260 -35 250 -65 c 1
+ 460 -125 500 -100 425 -175 c 1
+EndSplineSet
+EndChar

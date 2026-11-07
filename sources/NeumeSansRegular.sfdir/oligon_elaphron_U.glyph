@@ -1,0 +1,20 @@
+StartChar: oligon_elaphronU
+Encoding: 121 121 94
+Width: 800
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1
+ 770 0 l 1
+ 820 -30 800 70 725 80 c 1
+ 30 80 l 1
+ -20 110 0 10 75 0 c 1
+25 155 m 1
+ 75 145 100 145 150 155 c 1
+ 75 285 300 335 575 155 c 1
+ 625 135 700 135 750 145 c 1
+ 350 410 -100 435 25 155 c 1
+EndSplineSet
+EndChar

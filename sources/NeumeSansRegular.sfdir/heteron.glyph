@@ -1,0 +1,20 @@
+StartChar: heteron
+Encoding: 59 59 32
+Width: 750
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 0 -15 15 -35 50 -50 c 1
+ 350 50 450 -150 740 -50 c 1
+ 760 -25 740 50 735 75 c 1
+ 700 85 675 85 650 65 c 1
+ 675 0 l 1
+ 450 -100 350 100 75 0 c 1
+ 125 85 l 1
+ 100 100 75 100 50 85 c 1
+ 0 0 l 1
+EndSplineSet
+EndChar

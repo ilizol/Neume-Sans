@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hypsele" format="2">
+  <advance width="300"/>
+  <unicode hex="0028"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="curve"/>
+      <point x="175" y="0" type="line"/>
+      <point x="185" y="10"/>
+      <point x="185" y="20"/>
+      <point x="175" y="30" type="curve"/>
+      <point x="110" y="25"/>
+      <point x="120" y="30"/>
+      <point x="150" y="75" type="curve" smooth="yes"/>
+      <point x="285" y="250" type="line"/>
+      <point x="200" y="250" type="line" smooth="yes"/>
+      <point x="100" y="250"/>
+      <point x="150" y="225"/>
+    </contour>
+  </outline>
+</glyph>

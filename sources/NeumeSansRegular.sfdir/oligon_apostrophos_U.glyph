@@ -1,0 +1,20 @@
+StartChar: oligon_apostrophosU
+Encoding: 115 115 88
+Width: 800
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1
+ 770 0 l 1
+ 820 -30 800 70 725 80 c 1
+ 30 80 l 1
+ -20 110 0 10 75 0 c 1
+350 150 m 1
+ 375 135 425 135 450 140 c 1
+ 565 230 475 235 215 290 c 0
+ 205 290 185 290 175 260 c 1
+ 385 200 425 225 350 150 c 1
+EndSplineSet
+EndChar

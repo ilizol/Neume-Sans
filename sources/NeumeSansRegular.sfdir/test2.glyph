@@ -1,0 +1,20 @@
+StartChar: test2
+Encoding: 2 2 3
+Width: 500
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 500 1 l 1
+ 967 234 967 467 500 700 c 1
+ 0 700 l 1
+ 0 0 l 1
+100 101 m 1
+ 100 601 l 1
+ 400 601 l 1
+ 400 101 l 1
+ 100 101 l 1
+EndSplineSet
+EndChar

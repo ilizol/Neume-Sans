@@ -1,0 +1,24 @@
+StartChar: petaste_hyporrhoeU
+Encoding: 118 118 91
+Width: 750
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 130 m 1
+ 450 -125 850 -150 725 130 c 1
+ 700 140 625 140 600 130 c 1
+ 750 0 375 0 175 130 c 1
+ 125 150 25 150 0 130 c 1
+320 200 m 1
+ 380 300 l 2
+ 390 320 390 320 415 320 c 2
+ 470 320 l 2
+ 480 320 510 320 480 300 c 1
+ 420 200 l 2
+ 410 180 410 180 385 180 c 2
+ 330 180 l 2
+ 320 180 290 180 320 200 c 1
+EndSplineSet
+EndChar

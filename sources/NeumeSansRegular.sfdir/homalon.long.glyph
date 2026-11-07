@@ -1,0 +1,20 @@
+StartChar: homalon.long
+Encoding: 56 56 29
+Width: 850
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 800 0 l 1
+ 800 40 l 1
+ 50 40 l 2
+ 25 40 0 25 0 0 c 1
+800 100 m 1
+ 700 -85 l 1
+ 725 -100 775 -100 800 -85 c 1
+ 900 100 l 1
+ 875 115 825 115 800 100 c 1
+EndSplineSet
+EndChar

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gorgon.short" format="2">
+  <advance width="125"/>
+  <unicode hex="0042"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="35" y="0" type="line"/>
+      <point x="35" y="65" type="line"/>
+      <point x="125" y="65" type="line"/>
+      <point x="125" y="100" type="line"/>
+      <point x="0" y="100" type="line"/>
+    </contour>
+  </outline>
+</glyph>

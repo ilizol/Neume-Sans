@@ -1,0 +1,19 @@
+StartChar: oligon_klasmaU
+Encoding: 68 68 41
+Width: 800
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1
+ 770 0 l 1
+ 820 -30 800 70 725 80 c 1
+ 30 80 l 1
+ -20 110 0 10 75 0 c 1
+260 225 m 0
+ 250 230 255 245 270 250 c 1
+ 350 200 475 175 450 245 c 1
+ 550 275 650 25 260 225 c 0
+EndSplineSet
+EndChar

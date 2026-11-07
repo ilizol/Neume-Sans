@@ -1,0 +1,20 @@
+StartChar: bareia_oligon
+Encoding: 83 83 56
+Width: 1050
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 200 m 1
+ 50 210 100 210 125 200 c 1
+ 175 -50 250 -150 550 -175 c 0
+ 575 -180 575 -195 550 -200 c 1
+ 300 -200 125 -200 0 200 c 1
+325 0 m 1
+ 1020 0 l 1
+ 1070 -30 1050 70 975 80 c 1
+ 280 80 l 1
+ 230 110 250 10 325 0 c 1
+EndSplineSet
+EndChar

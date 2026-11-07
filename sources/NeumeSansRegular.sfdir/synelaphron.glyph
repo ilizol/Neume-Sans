@@ -1,0 +1,20 @@
+StartChar: synelaphron
+Encoding: 112 112 85
+Width: 1075
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+175 0 m 1
+ 200 -15 250 -15 275 -10 c 1
+ 390 80 300 85 40 140 c 0
+ 30 140 10 140 0 110 c 1
+ 210 50 250 75 175 0 c 1
+350 -30 m 1
+ 400 -40 425 -40 475 -30 c 1
+ 400 100 625 150 900 -30 c 1
+ 950 -50 1025 -50 1075 -40 c 1
+ 675 225 225 250 350 -30 c 1
+EndSplineSet
+EndChar

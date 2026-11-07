@@ -1,0 +1,15 @@
+StartChar: apostrophos
+Encoding: 41 41 14
+Width: 325
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+175 0 m 1
+ 200 -15 250 -15 275 -10 c 1
+ 390 80 300 85 40 140 c 0
+ 30 140 10 140 0 110 c 1
+ 210 50 250 75 175 0 c 1
+EndSplineSet
+EndChar

@@ -1,5 +1,6 @@
 import argparse
 import fontforge
+from pathlib import Path
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate font")
@@ -9,4 +10,7 @@ if __name__ == "__main__":
 
     font = fontforge.open(args.infile)
 
-    font.generate(args.outfile)
+    if args.outfile.lower().endswith(".sfdir"):
+        font.save(args.outfile)
+    else:
+        font.generate(args.outfile)

@@ -1,0 +1,15 @@
+StartChar: antikenoma
+Encoding: 57 57 30
+Width: 750
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 350 10 350 10 550 0 c 1
+ 800 -40 450 -60 600 -100 c 1
+ 850 -100 900 100 50 40 c 0
+ 25 40 0 25 0 0 c 1
+EndSplineSet
+EndChar

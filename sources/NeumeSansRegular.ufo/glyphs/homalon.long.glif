@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="homalon.long" format="2">
+  <advance width="850"/>
+  <unicode hex="0038"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="curve"/>
+      <point x="800" y="0" type="line"/>
+      <point x="800" y="40" type="line"/>
+      <point x="50" y="40" type="line" smooth="yes"/>
+      <point x="25" y="40"/>
+      <point x="0" y="25"/>
+    </contour>
+    <contour>
+      <point x="800" y="100" type="curve"/>
+      <point x="700" y="-85" type="line"/>
+      <point x="725" y="-100"/>
+      <point x="775" y="-100"/>
+      <point x="800" y="-85" type="curve"/>
+      <point x="900" y="100" type="line"/>
+      <point x="875" y="115"/>
+      <point x="825" y="115"/>
+    </contour>
+  </outline>
+</glyph>

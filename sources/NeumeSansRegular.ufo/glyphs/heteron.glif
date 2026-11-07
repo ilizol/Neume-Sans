@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="heteron" format="2">
+  <advance width="750"/>
+  <unicode hex="003B"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="-15"/>
+      <point x="15" y="-35"/>
+      <point x="50" y="-50" type="curve"/>
+      <point x="350" y="50"/>
+      <point x="450" y="-150"/>
+      <point x="740" y="-50" type="curve"/>
+      <point x="760" y="-25"/>
+      <point x="740" y="50"/>
+      <point x="735" y="75" type="curve"/>
+      <point x="700" y="85"/>
+      <point x="675" y="85"/>
+      <point x="650" y="65" type="curve"/>
+      <point x="675" y="0" type="line"/>
+      <point x="450" y="-100"/>
+      <point x="350" y="100"/>
+      <point x="75" y="0" type="curve"/>
+      <point x="125" y="85" type="line"/>
+      <point x="100" y="100"/>
+      <point x="75" y="100"/>
+      <point x="50" y="85" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

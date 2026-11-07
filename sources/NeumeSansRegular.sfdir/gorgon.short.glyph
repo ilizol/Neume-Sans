@@ -1,0 +1,17 @@
+StartChar: gorgon.short
+Encoding: 66 66 39
+Width: 125
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 35 0 l 1
+ 35 65 l 1
+ 125 65 l 1
+ 125 100 l 1
+ 0 100 l 1
+ 0 0 l 1
+EndSplineSet
+EndChar

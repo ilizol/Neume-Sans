@@ -1,0 +1,22 @@
+StartChar: petaste.a5
+Encoding: 158 158 131
+Width: 750
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 130 m 1
+ 450 -125 850 -150 725 130 c 1
+ 700 140 625 140 600 130 c 1
+ 750 0 375 0 175 130 c 1
+ 125 150 25 150 0 130 c 1
+0 200 m 1
+ 175 200 l 1
+ 185 210 185 220 175 230 c 1
+ 110 225 120 230 150 275 c 2
+ 285 450 l 1
+ 200 450 l 2
+ 100 450 150 425 0 200 c 1
+EndSplineSet
+EndChar

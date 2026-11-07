@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bareia_oligon" format="2">
+  <advance width="1050"/>
+  <unicode hex="0053"/>
+  <outline>
+    <contour>
+      <point x="0" y="200" type="curve"/>
+      <point x="50" y="210"/>
+      <point x="100" y="210"/>
+      <point x="125" y="200" type="curve"/>
+      <point x="175" y="-50"/>
+      <point x="250" y="-150"/>
+      <point x="550" y="-175" type="curve" smooth="yes"/>
+      <point x="575" y="-180"/>
+      <point x="575" y="-195"/>
+      <point x="550" y="-200" type="curve"/>
+      <point x="300" y="-200"/>
+      <point x="125" y="-200"/>
+    </contour>
+    <contour>
+      <point x="325" y="0" type="curve"/>
+      <point x="1020" y="0" type="line"/>
+      <point x="1070" y="-30"/>
+      <point x="1050" y="70"/>
+      <point x="975" y="80" type="curve"/>
+      <point x="280" y="80" type="line"/>
+      <point x="230" y="110"/>
+      <point x="250" y="10"/>
+    </contour>
+  </outline>
+</glyph>

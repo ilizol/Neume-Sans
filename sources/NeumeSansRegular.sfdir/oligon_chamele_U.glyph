@@ -1,0 +1,27 @@
+StartChar: oligon_chameleU
+Encoding: 126 126 99
+Width: 800
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 0 m 1
+ 770 0 l 1
+ 820 -30 800 70 725 80 c 1
+ 30 80 l 1
+ -20 110 0 10 75 0 c 1
+0 375 m 1
+ 50 385 100 385 150 375 c 1
+ 175 225 300 250 400 250 c 2
+ 600 250 l 2
+ 625 250 675 150 625 175 c 1
+ 200 175 l 2
+ 125 175 125 175 0 375 c 1
+475 125 m 1
+ 400 300 l 1
+ 450 305 425 305 475 300 c 1
+ 550 125 l 1
+ 525 120 500 120 475 125 c 1
+EndSplineSet
+EndChar

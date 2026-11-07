@@ -1,0 +1,21 @@
+StartChar: ison_psephistonD
+Encoding: 91 91 64
+Width: 725
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+550 0 m 1
+ 680 0 l 1
+ 750 -30 725 30 675 60 c 0
+ 600 100 300 40 150 80 c 1
+ 0 150 250 150 100 200 c 1
+ -75 250 -75 -25 550 0 c 1
+25 -70 m 1
+ 375 -300 675 -250 775 -70 c 1
+ 750 -60 675 -60 650 -70 c 0
+ 550 -100 500 -300 125 -70 c 0
+ 100 -50 50 -50 25 -70 c 1
+EndSplineSet
+EndChar

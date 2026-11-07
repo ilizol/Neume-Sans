@@ -1,0 +1,21 @@
+StartChar: ison_apostrophosDR
+Encoding: 109 109 82
+Width: 825
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+550 0 m 1
+ 680 0 l 1
+ 750 -30 725 30 675 60 c 0
+ 600 100 300 40 150 80 c 1
+ 0 150 250 150 100 200 c 1
+ -75 250 -75 -25 550 0 c 1
+675 -175 m 1
+ 700 -190 750 -190 775 -185 c 1
+ 890 -95 800 -90 540 -35 c 0
+ 530 -35 510 -35 500 -65 c 1
+ 710 -125 750 -100 675 -175 c 1
+EndSplineSet
+EndChar
