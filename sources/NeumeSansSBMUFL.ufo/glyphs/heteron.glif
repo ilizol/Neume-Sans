@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="heteron" format="2">
+  <advance width="750"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="-29"/>
+      <point x="50" y="-50" type="qcurve"/>
+      <point x="132" y="-23"/>
+      <point x="282" y="-21"/>
+      <point x="399" y="-50"/>
+      <point x="514" y="-79"/>
+      <point x="660" y="-78"/>
+      <point x="740" y="-50" type="qcurve"/>
+      <point x="745" y="-44"/>
+      <point x="749" y="-23"/>
+      <point x="749" y="-2"/>
+      <point x="745" y="28"/>
+      <point x="741" y="45"/>
+      <point x="735" y="73"/>
+      <point x="735" y="75" type="qcurve" smooth="yes"/>
+      <point x="682" y="90"/>
+      <point x="650" y="65" type="qcurve"/>
+      <point x="675" y="0" type="line"/>
+      <point x="613" y="-28"/>
+      <point x="495" y="-29"/>
+      <point x="394" y="0"/>
+      <point x="289" y="29"/>
+      <point x="151" y="27"/>
+      <point x="75" y="0" type="qcurve"/>
+      <point x="125" y="85" type="line"/>
+      <point x="88" y="108"/>
+      <point x="50" y="85" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

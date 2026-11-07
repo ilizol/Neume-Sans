@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oligonKentimataBelow" format="2">
+  <advance width="800"/>
+  <unicode hex="E082"/>
+  <outline>
+    <component base="kentemata" xOffset="470" yOffset="-150"/>
+    <component base="oligon"/>
+  </outline>
+</glyph>

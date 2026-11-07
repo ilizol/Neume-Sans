@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oligonIsonKentimata" format="2">
+  <advance width="900"/>
+  <unicode hex="E084"/>
+  <outline>
+    <component base="kentemata" xOffset="575" yOffset="150"/>
+    <component base="ison.short" xOffset="-50" yOffset="150"/>
+    <component base="oligon.long"/>
+  </outline>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hypsele" format="2">
+  <advance width="300"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="qcurve"/>
+      <point x="175" y="0" type="line"/>
+      <point x="190" y="15"/>
+      <point x="175" y="30" type="qcurve"/>
+      <point x="163" y="29"/>
+      <point x="148" y="28"/>
+      <point x="136" y="29"/>
+      <point x="129" y="29"/>
+      <point x="127" y="35"/>
+      <point x="126" y="37"/>
+      <point x="132" y="48"/>
+      <point x="135" y="52"/>
+      <point x="147" y="71"/>
+      <point x="150" y="75" type="qcurve" smooth="yes"/>
+      <point x="285" y="250" type="line"/>
+      <point x="200" y="250" type="line" smooth="yes"/>
+      <point x="169" y="250"/>
+      <point x="142" y="243"/>
+      <point x="116" y="208"/>
+      <point x="98" y="164"/>
+      <point x="39" y="59"/>
+    </contour>
+  </outline>
+</glyph>

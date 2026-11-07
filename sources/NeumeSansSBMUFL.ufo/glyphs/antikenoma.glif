@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="antikenoma" format="2">
+  <advance width="750"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="qcurve"/>
+      <point x="262" y="8"/>
+      <point x="400" y="8"/>
+      <point x="550" y="0" type="qcurve"/>
+      <point x="643" y="-15"/>
+      <point x="643" y="-30" type="qcurve" smooth="yes"/>
+      <point x="643" y="-38"/>
+      <point x="599" y="-55" type="qcurve" smooth="yes"/>
+      <point x="561" y="-70"/>
+      <point x="561" y="-79" type="qcurve" smooth="yes"/>
+      <point x="561" y="-90"/>
+      <point x="600" y="-100" type="qcurve"/>
+      <point x="705" y="-100"/>
+      <point x="746" y="-64" type="qcurve" smooth="yes"/>
+      <point x="781" y="-34"/>
+      <point x="734" y="-5" type="qcurve" smooth="yes"/>
+      <point x="636" y="56"/>
+      <point x="290" y="51" type="qcurve" smooth="yes"/>
+      <point x="180" y="49"/>
+      <point x="50" y="40" type="qcurve" smooth="yes"/>
+      <point x="30" y="40"/>
+      <point x="0" y="18"/>
+    </contour>
+  </outline>
+</glyph>

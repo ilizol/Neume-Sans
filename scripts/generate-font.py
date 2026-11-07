@@ -10,6 +10,7 @@ if __name__ == "__main__":
     font = fontforge.open(args.infile)
 
     if args.outfile.lower().endswith(".sfdir"):
+        font.xuid = None
         font.save(args.outfile)
     else:
         font.generate(args.outfile)
