@@ -2,9 +2,9 @@ SplineFontDB: 3.2
 FontName: NeumeSansSBMUFL-Regular
 FullName: Neume Sans SBMUFL Regular
 FamilyName: Neume Sans SBMUFL
-Weight: Medium
+Weight: Regular
 Copyright:  
-Version: 0.1
+Version: Version 0.1
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -13,15 +13,15 @@ Descent: 200
 InvalidEm: 0
 sfntRevision: 0x00010000
 LayerCount: 2
-Layer: 0 1 "Back" 1
-Layer: 1 1 "Fore" 0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1793209796
-ModificationTime: 1794057201
+ModificationTime: 1793209796
 PfmFamily: 81
 TTFWeight: 500
 TTFWidth: 5
@@ -57,27 +57,8 @@ OS2Vendor: 'XXXX'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000003.10000000.00000000.00000000
 DEI: 91125
-ShortTable: maxp 16
-  1
-  0
-  170
-  139
-  8
-  68
-  4
-  2
-  0
-  1
-  1
-  0
-  64
-  0
-  3
-  1
-EndShort
 LangName: 1033 "" "" "" " :Neume Sans SBMUFL Regular" "" "Version 0.1" "" " " " " " " " " " " " " " " " " "" "Neume Sans SBMUFL" "Regular"
-GaspTable: 1 65535 2 0
-Encoding: UnicodeBmp
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48

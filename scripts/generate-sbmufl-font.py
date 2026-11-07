@@ -1,5 +1,6 @@
 import argparse
 import json
+import os
 from pathlib import Path
 import subprocess
 
@@ -40,6 +41,10 @@ def main():
         nargs="?",
         default=ROOT / "fonts/ttf/NeumeSans-SBMUFL.ttf",
         help="Output TrueType font",
+    )
+    parser.add_argument(
+        "--sfdir",
+        help="Optional FontForge source directory output",
     )
     args = parser.parse_args()
 
@@ -93,6 +98,25 @@ def main():
     )
     font.generate(str(args.outfile))
     font.close()
+
+    source_stat = Path(args.infile).stat()
+    output_stat = Path(args.outfile).stat()
+    os.utime(
+        args.outfile,
+        ns=(output_stat.st_atime_ns, source_stat.st_mtime_ns),
+    )
+
+    if args.sfdir:
+        props_file = Path(args.sfdir) / "font.props"
+        modification_time = round(source_stat.st_mtime)
+        props = props_file.read_text().splitlines()
+        props = [
+            f"ModificationTime: {modification_time}"
+            if line.startswith("ModificationTime: ")
+            else line
+            for line in props
+        ]
+        props_file.write_text("\n".join(props) + "\n")
 
 
 if __name__ == "__main__":

@@ -3,8 +3,8 @@ python3 generate-font.py ../fonts/otf/NeumeSans-Regular.otf ../sources/NeumeSans
 python3 generate-font.py ../fonts/otf/NeumeSans-Regular.otf ../sources/NeumeSansRegular.ufo
 
 # SBMUFL
-python3 generate-sbmufl-font.py ../fonts/otf/NeumeSans-Regular.otf ../fonts/ttf/NeumeSans-SBMUFL.ttf
-python3 generate-font.py ../fonts/ttf/NeumeSans-SBMUFL.ttf ../sources/NeumeSansSBMUFL.sfdir
+python3 generate-sbmufl-font.py ../fonts/otf/NeumeSans-Regular.otf ../fonts/ttf/NeumeSans-SBMUFL.ttf --sfdir ../sources/NeumeSansSBMUFL.sfdir
+# python3 generate-font.py ../fonts/ttf/NeumeSans-SBMUFL.ttf ../sources/NeumeSansSBMUFL.sfdir
 python3 generate-font.py ../fonts/ttf/NeumeSans-SBMUFL.ttf ../sources/NeumeSansSBMUFL.ufo
 
 # neumes
