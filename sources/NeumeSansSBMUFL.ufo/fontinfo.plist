@@ -5,7 +5,7 @@
     <key>familyName</key>
     <string>Neume Sans SBMUFL</string>
     <key>styleName</key>
-    <string>Regular</string>
+    <string>Medium</string>
     <key>styleMapFamilyName</key>
     <string>Neume Sans SBMUFL Regular</string>
     <key>styleMapStyleName</key>
@@ -53,7 +53,7 @@
     <key>openTypeNameVersion</key>
     <string>Version 0.1</string>
     <key>openTypeNameUniqueID</key>
-    <string> :Neume Sans SBMUFL Regular</string>
+    <string> :Neume Sans SBMUFL</string>
     <key>openTypeNameDescription</key>
     <string> </string>
     <key>openTypeNamePreferredFamilyName</key>
@@ -128,9 +128,9 @@
       <integer>0</integer>
     </array>
     <key>postscriptFontName</key>
-    <string>NeumeSansSBMUFL-Regular</string>
+    <string>NeumeSansSBMUFL</string>
     <key>postscriptFullName</key>
-    <string>Neume Sans SBMUFL Regular</string>
+    <string>Neume Sans SBMUFL</string>
     <key>postscriptWeightName</key>
     <string>Medium</string>
     <key>postscriptUnderlineThickness</key>

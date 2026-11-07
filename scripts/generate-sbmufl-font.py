@@ -76,14 +76,14 @@ def main():
         if glyph.unicode >= 0 and not PUA_START <= glyph.unicode <= PUA_END:
             glyph.unicode = -1
 
-    font.fontname = "NeumeSansSBMUFL-Regular"
+    font.fontname = "NeumeSansSBMUFL"
     font.familyname = "Neume Sans SBMUFL"
-    font.fullname = "Neume Sans SBMUFL Regular"
+    font.fullname = "Neume Sans SBMUFL"
     font.sfnt_names = tuple(
         (
             language,
             name_id,
-            " :Neume Sans SBMUFL Regular"
+            " :Neume Sans SBMUFL"
             if name_id == "UniqueID"
             else "Neume Sans SBMUFL"
             if name_id == "Preferred Family"
