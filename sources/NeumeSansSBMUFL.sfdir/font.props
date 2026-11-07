@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1793209796
-ModificationTime: 1794062039
+ModificationTime: 1794062705
 PfmFamily: 81
 TTFWeight: 500
 TTFWidth: 5
@@ -75,7 +75,7 @@ ShortTable: maxp 16
   3
   1
 EndShort
-LangName: 1033 "" "" "Regular" " :Neume Sans SBMUFL" "" "Version 0.1" "" " " " " " " " " " " " " " " " " "" "Neume Sans SBMUFL" "Regular"
+LangName: 1033 "" "" "" " :Neume Sans SBMUFL" "" "Version 0.1" "" " " " " " " " " " " " " " " " " "" "Neume Sans SBMUFL" "Regular"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
