@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 from pathlib import Path
+import struct
 import subprocess
 
 import fontforge
@@ -15,6 +16,44 @@ COMPONENT_ALIASES = {
     "oligon-long": "oligon.long",
     "ison-short": "ison.short",
 }
+SFNT_CHECKSUM_MAGIC = 0xB1B0AFBA
+
+
+def find_head_table(font_data):
+    table_count = struct.unpack_from(">H", font_data, 4)[0]
+    for table_index in range(table_count):
+        record_offset = 12 + table_index * 16
+        if font_data[record_offset : record_offset + 4] == b"head":
+            table_offset, table_length = struct.unpack_from(">II", font_data, record_offset + 8)
+            return record_offset, table_offset, table_length
+    raise ValueError("Missing OpenType head table")
+
+
+def sfnt_checksum(data):
+    padded_data = data + b"\0" * (-len(data) % 4)
+    checksum = 0
+    for offset in range(0, len(padded_data), 4):
+        checksum += int.from_bytes(padded_data[offset : offset + 4], "big")
+    return checksum & 0xFFFFFFFF
+
+
+def copy_head_modification_time(source_path, output_path):
+    source_data = source_path.read_bytes()
+    output_data = bytearray(output_path.read_bytes())
+    _, source_head_offset, _ = find_head_table(source_data)
+    record_offset, output_head_offset, output_head_length = find_head_table(output_data)
+
+    output_data[output_head_offset + 28 : output_head_offset + 36] = (
+        source_data[source_head_offset + 28 : source_head_offset + 36]
+    )
+    output_data[output_head_offset + 8 : output_head_offset + 12] = b"\0" * 4
+    head_checksum = sfnt_checksum(
+        output_data[output_head_offset : output_head_offset + output_head_length]
+    )
+    struct.pack_into(">I", output_data, record_offset + 4, head_checksum)
+    check_sum_adjustment = (SFNT_CHECKSUM_MAGIC - sfnt_checksum(output_data)) & 0xFFFFFFFF
+    struct.pack_into(">I", output_data, output_head_offset + 8, check_sum_adjustment)
+    output_path.write_bytes(output_data)
 
 
 def load_sbmufl_glyphs():
@@ -98,6 +137,8 @@ def main():
     )
     font.generate(str(args.outfile))
     font.close()
+
+    copy_head_modification_time(Path(args.infile), Path(args.outfile))
 
     source_stat = Path(args.infile).stat()
     output_stat = Path(args.outfile).stat()
